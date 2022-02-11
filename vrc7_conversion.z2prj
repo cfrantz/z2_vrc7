@@ -1,0 +1,77 @@
+{
+  "name": "VRC7",
+  "edits": [
+    {
+      "meta": {
+        "label": "ImportRom",
+        "user": "cfrantz",
+        "timestamp": 0,
+        "comment": "",
+        "config": "vanilla",
+        "extra": {
+          "project": "VRC7",
+          "fix": "true",
+          "next_config": "config-VRC7"
+        }
+      },
+      "edit": {
+        "type": "ImportRom",
+        "id": "",
+        "file": "Vanilla"
+      }
+    },
+    {
+      "meta": {
+        "label": "Python Script: PRG Expansion",
+        "user": "cfrantz",
+        "timestamp": 0,
+        "comment": "",
+        "config": "config-VRC7",
+        "extra": {
+          "next_config": "config-VRC7-prg_expansion",
+          "layout_changed": "true"
+        }
+      },
+      "edit": {
+        "type": "PythonScript",
+        "file": null,
+        "code": "from z2edit.experimental import chr_expansion\nchr_expansion.hack(edit, num_prg_banks=8)\n"
+      }
+    },
+    {
+      "meta": {
+        "label": "Python Script: VRC7 Conversion",
+        "user": "cfrantz",
+        "timestamp": 0,
+        "comment": "",
+        "config": "config-VRC7-prg_expansion",
+        "extra": {
+        }
+      },
+      "edit": {
+        "type": "PythonScript",
+        "file": "scripts/vrc7.py",
+        "code": ""
+      }
+    },
+    {
+      "meta": {
+        "label": "Python Script: Hacks",
+        "user": "cfrantz",
+        "timestamp": 0,
+        "comment": "",
+        "config": "config-VRC7-prg_expansion",
+        "extra": {
+        }
+      },
+      "edit": {
+        "type": "PythonScript",
+        "file": "scripts/init.py",
+        "code": ""
+      }
+    }
+  ],
+  "extra_data": {
+    "data": {}
+  }
+}
