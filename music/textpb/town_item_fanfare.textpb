@@ -1,0 +1,192 @@
+bpm: 150
+time_signature {
+  numerator: 4
+  denominator: 4
+}
+frames_per_measure: 96
+tracks {
+  name: "Piano, Pulse2"
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+      other {
+        program_change: 16
+      }
+    }
+    frames {
+      frame: 11
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 12
+      note {
+        kind: ON
+        note: 61
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 35
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 63
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 63
+      }
+    }
+  }
+  sequence: 0
+}
+tracks {
+  name: "Piano, Pulse1"
+  number: 1
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+      other {
+        program_change: 16
+      }
+    }
+    frames {
+      frame: 11
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 12
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 71
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 35
+      note {
+        kind: OFF
+        note: 71
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+  }
+  sequence: 0
+}
+tracks {
+  name: "Bass Guitar, Triangle"
+  number: 2
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+    }
+    frames {
+      frame: 12
+      note {
+        kind: ON
+        note: 42
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 44
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: OFF
+        note: 44
+      }
+    }
+  }
+  sequence: 0
+}
+

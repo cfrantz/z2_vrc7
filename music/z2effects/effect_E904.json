@@ -1,0 +1,29 @@
+// Multi-bit effect $EC=$60: Town-text typewriter sound
+[
+    {
+        "frame": 0,
+        "14": 5,
+        "15": 8,
+        "12": 26
+    },
+    {
+        "frame": 1,
+        "12": 24
+    },
+    {
+        "frame": 2,
+        "12": 22
+    },
+    {
+        "frame": 3,
+        "12": 20
+    },
+    {
+        "frame": 4,
+        "12": 18
+    },
+    {
+        "frame": 5,
+        "12": 16
+    }
+]

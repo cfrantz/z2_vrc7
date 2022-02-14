@@ -1,0 +1,904 @@
+bpm: 150
+time_signature {
+  numerator: 4
+  denominator: 4
+}
+frames_per_measure: 96
+tracks {
+  name: "Piano, Pulse2"
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+      other {
+        program_change: 56
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 57
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: OFF
+        note: 55
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 55
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: OFF
+        note: 56
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 56
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 56
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 11
+      note {
+        kind: OFF
+        note: 56
+      }
+    }
+    frames {
+      frame: 12
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 35
+      note {
+        kind: OFF
+        note: 52
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 59
+      note {
+        kind: OFF
+        note: 52
+      }
+    }
+    frames {
+      frame: 60
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 83
+      note {
+        kind: OFF
+        note: 52
+      }
+    }
+    frames {
+      frame: 84
+      note {
+        kind: ON
+        note: 52
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 52
+      }
+      other {
+        next_song: 0x02
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 2
+  sequence: 3
+}
+tracks {
+  name: "Piano, Pulse1"
+  number: 1
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+      other {
+        program_change: 56
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 63
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 11
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 12
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 35
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 59
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 60
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 83
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 84
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 1
+  sequence: 2
+}
+tracks {
+  name: "Bass Guitar, Triangle"
+  number: 2
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 37
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 84
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 2
+  sequence: 3
+}
+tracks {
+  name: "Drumset, Noise"
+  number: 3
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+      other {
+        program_change: 0
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 1
+  sequence: 1
+}
+

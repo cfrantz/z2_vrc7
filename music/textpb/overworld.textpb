@@ -1,0 +1,3310 @@
+bpm: 150
+time_signature {
+  numerator: 4
+  denominator: 4
+}
+frames_per_measure: 96
+tracks {
+  name: "Piano, Pulse2"
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+      other {
+        program_change: 56
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 59
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 65
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 65
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 89
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 59
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 65
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 58
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 58
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 58
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 58
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 65
+      note {
+        kind: OFF
+        note: 58
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 89
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 30
+      note {
+        kind: ON
+        note: 68
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 55
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 55
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 57
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 6
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 12
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 30
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 36
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 54
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 60
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 78
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 84
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 64
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 1
+  sequence: 2
+  sequence: 3
+  sequence: 5
+  sequence: 6
+  sequence: 7
+  sequence: 8
+  sequence: 5
+  sequence: 6
+  sequence: 9
+  sequence: 10
+  sequence: 11
+  sequence: 12
+  sequence: 11
+  sequence: 12
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 15
+  sequence: 0x80 # Loop back to the beginning of the sequence
+}
+tracks {
+  name: "Piano, Pulse1"
+  number: 1
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+      other {
+        program_change: 56
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 75
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 65
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 89
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 89
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 82
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 82
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 81
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 81
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 79
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 79
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 75
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 75
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 46
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 79
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 81
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 79
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 79
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 17
+      note {
+        kind: OFF
+        note: 76
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 77
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 76
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 65
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 70
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 89
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 1
+  sequence: 2
+  sequence: 3
+  sequence: 5
+  sequence: 6
+  sequence: 7
+  sequence: 8
+  sequence: 5
+  sequence: 6
+  sequence: 9
+  sequence: 10
+  sequence: 11
+  sequence: 12
+  sequence: 11
+  sequence: 12
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 15
+  sequence: 0x80 # Loop back to the beginning of the sequence
+}
+tracks {
+  name: "Bass Guitar, Triangle"
+  number: 2
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 53
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 53
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 57
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 42
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 50
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 50
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 48
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 48
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: OFF
+        note: 43
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 78
+      note {
+        kind: ON
+        note: 50
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 46
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 1
+  sequence: 2
+  sequence: 3
+  sequence: 5
+  sequence: 6
+  sequence: 7
+  sequence: 8
+  sequence: 5
+  sequence: 6
+  sequence: 9
+  sequence: 10
+  sequence: 11
+  sequence: 11
+  sequence: 11
+  sequence: 11
+  sequence: 12
+  sequence: 12
+  sequence: 12
+  sequence: 13
+  sequence: 0x80 # Loop back to the beginning of the sequence
+}
+tracks {
+  name: "Drumset, Noise"
+  number: 3
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+      other {
+        program_change: 0
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 78
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 18
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 66
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 90
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 2
+  sequence: 2
+  sequence: 2
+  sequence: 3
+  sequence: 0x80 # Loop back to the beginning of the sequence
+}
+

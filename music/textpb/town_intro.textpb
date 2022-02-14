@@ -1,0 +1,351 @@
+bpm: 128
+time_signature {
+  numerator: 4
+  denominator: 4
+}
+frames_per_measure: 113
+tracks {
+  name: "Piano, Pulse2"
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 60
+        velocity: 64
+      }
+      other {
+        program_change: 11
+      }
+    }
+    frames {
+      frame: 53
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 110
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 13
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 14
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 27
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 28
+      note {
+        kind: ON
+        note: 62
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 112 
+      other {
+        next_song: 0x02
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+}
+tracks {
+  name: "Piano, Pulse1"
+  number: 1
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 64
+        velocity: 64
+      }
+      other {
+        program_change: 11
+      }
+    }
+    frames {
+      frame: 53
+      note {
+        kind: OFF
+        note: 64
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 74
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: ON
+        note: 72
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 110
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 65
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 13
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 14
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 27
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
+      frame: 28
+      note {
+        kind: ON
+        note: 69
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 67
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+}
+tracks {
+  name: "Bass Guitar, Triangle"
+  number: 2
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 36
+        velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+    }
+    frames {
+      frame: 14
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 28
+      note {
+        kind: ON
+        note: 39
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 40
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 50
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: ON
+        note: 48
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 112
+      note {
+        kind: OFF
+        note: 48
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 14
+      note {
+        kind: ON
+        note: 41
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 28
+      note {
+        kind: ON
+        note: 45
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 70
+      note {
+        kind: ON
+        note: 47
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 84
+      note {
+        kind: ON
+        note: 50
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 112
+      note {
+        kind: OFF
+        note: 50
+      }
+    }
+  }
+  sequence: 0
+  sequence: 1
+}
+

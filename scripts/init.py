@@ -22,6 +22,11 @@ try:
     meta = edit.meta
     config = Config.get(meta['config'])
 
+    import music
+
+    symtab = {}
+    music.hack(edit, asm, symtab, irq_drives_scroll=False)
+
     # Now tell the editor about the new configuration.
     name = meta['config'].replace('chr_expansion-mmc5', 'mmc5')
     Config.put(name, config)
