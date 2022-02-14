@@ -45,8 +45,7 @@
         "timestamp": 0,
         "comment": "",
         "config": "config-VRC7-prg_expansion",
-        "extra": {
-        }
+        "extra": {}
       },
       "edit": {
         "type": "PythonScript",
@@ -58,10 +57,11 @@
       "meta": {
         "label": "Python Script: Hacks",
         "user": "cfrantz",
-        "timestamp": 0,
+        "timestamp": 1644812013497872,
         "comment": "",
         "config": "config-VRC7-prg_expansion",
         "extra": {
+          "next_config": "config-VRC7-prg_expansion"
         }
       },
       "edit": {
