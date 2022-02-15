@@ -187,11 +187,11 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
         music_nmi_title_screen = {_music_nmi_title_screen}
         bank7_related_to_sound = $c1c1
 
-        .org {wait_for_sprite0hit}
+        .org {WAIT_FOR_SPRITE0HIT}
         sp0_main:
             bit $2002
             bvc sp0_main
-            jmp {scroll_done}
+            jmp {SCROLL_DONE}
 
         ; sprite0hit detection in the spell menu
         .org $9dac
@@ -248,10 +248,25 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
             lda $0736               ; Game mode
             cmp #$b                 ; side view?
             bne done
-            lda #52                 ; 52 scanlines (21 in NMI + 31 in HUD)
+            ; The Konami VRC IRQ scanline counter isn't a true scanline counter,
+            ; but rather a CPU clock counter scaled to scanlines.  As such,
+            ; the number of scanlines depends on when you start the counter.
+            ; Ideally, we want to interrupt on scanline 31 so we can busyloop
+            ; for a short period of time waiting for the sprite0hit and produce
+            ; perfect screen split just like in vanilla.
+            ;
+            ; In that case, the value would be something like:
+            ;    256 - (21 lines in NMI + 31 lines on screen).
+            ;
+            ; Unfortunately, depending on the whether the user opens the menu,
+            ; the start time in the NMI routine can vary, so instead, this
+            ; value was chosen empirically to always interrupt before line
+            ; 31.  When the menu is not open, this means we can spend around
+            ; 8 to 16 scanlines just busy-waiting in the IRQ.  Bleh.
+            lda #224                
             tax
-            sta $E010               ; scanline interrupt on 31
-            lda #$20                ; irq: scanline mode, enabe, no enable after ack.
+            sta $E010               ; scanline interrupt 32 lines from now.
+            lda #$02                ; irq: scanline mode, enabe, no enable after ack.
             sta $F000
             cli
         done:

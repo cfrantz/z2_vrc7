@@ -23,13 +23,17 @@ try:
     config = Config.get(meta['config'])
 
     import music
+    import bank7_code_move
 
     symtab = {}
+    # Affects bank 0 and -1 (last bank).
+    bank7_code_move.hack(edit, asm, config, symtab)
+    # Replaces bank 6, adds several 8KiB banks (28/29=bank 14, 26/27=bank13).
     music.hack(edit, asm, symtab,
                # The IRQ routines need 100 free bytes in bank -1, however
                # without additional hacks, we don't have 100 contiguous bytes
                # free in bank -1.
-               irq_drives_scroll=False)
+               irq_drives_scroll=True)
 
     # Now tell the editor about the new configuration.
     name = meta['config'].replace('chr_expansion-mmc5', 'mmc5')

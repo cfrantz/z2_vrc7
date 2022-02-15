@@ -197,10 +197,9 @@ enough CPU such that PPU has already passed the Sprite-0 Hit detection
 (used to split the screen for HUD vs play area).
 
 The solution to this is to rework the screen-split to use a scan-line
-IRQ rather than busy-looping for Sprite-0 Hit.  I have a working
-implementation for MMC5, but not yet for VRC7.  In order to implement
+IRQ rather than busy-looping for Sprite-0 Hit.  In order to implement
 this IRQ scheme for VRC7, additional hacks are required to free up space
-in the last bank.
+in the last bank (see `bank7_code_move.py`).
 
 My own measurements of the game show that overall, the game typically
 spends 30% to 50% of its time in a CPU idle loop.  As such, I don't
