@@ -25,7 +25,11 @@ try:
     import music
 
     symtab = {}
-    music.hack(edit, asm, symtab, irq_drives_scroll=False)
+    music.hack(edit, asm, symtab,
+               # The IRQ routines need 100 free bytes in bank -1, however
+               # without additional hacks, we don't have 100 contiguous bytes
+               # free in bank -1.
+               irq_drives_scroll=False)
 
     # Now tell the editor about the new configuration.
     name = meta['config'].replace('chr_expansion-mmc5', 'mmc5')

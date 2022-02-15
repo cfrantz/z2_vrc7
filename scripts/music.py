@@ -240,7 +240,7 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
         .org {freespace}
         setup_irq:
             ldx #0
-            lda $5204               ; ack any prior irq
+            lda $F010               ; ack any prior irq
             lda $0494               ; link dead?
             bne done
             lda $0726               ; transition screen? (no sprites/gfx)
@@ -248,11 +248,11 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
             lda $0736               ; Game mode
             cmp #$b                 ; side view?
             bne done
-            lda #$1e
+            lda #52                 ; 52 scanlines (21 in NMI + 31 in HUD)
             tax
-            sta $5203               ; scanline interrupt on 31
-            lda #$80
-            sta $5204
+            sta $E010               ; scanline interrupt on 31
+            lda #$20                ; irq: scanline mode, enabe, no enable after ack.
+            sta $F000
             cli
         done:
             stx nmi_wait_flag
@@ -267,7 +267,6 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
             pla
             rti
 
-
         sprite0_irq:
             php
             pha
@@ -275,7 +274,7 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
             pha
             tya
             pha
-            lda $5204               ; ack any prior irq
+            lda $F010               ; ack any prior irq
         sprite0hit:
             bit $2002               ; maybe we don't need to wait here.
             bvc sprite0hit
@@ -291,7 +290,7 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
             stx $2005
             sty $2005
             sty nmi_wait_flag
-            sty $5204               ; disable irq
+            sty $F000               ; disable irq
 
             pla
             tay
