@@ -52,7 +52,7 @@ drum_patch = _drum_patch - $21
 ;  6 = MMC5 Pulse 1
 
 VRC7_CHANNEL = 5
-VRC7_REG = $9010
+VRC7_SEL = $9010
 VRC7_DATA = $9030
 ;  5 = VRC7:0
 ;  6 = VRC7:1
@@ -129,6 +129,57 @@ _bss_length = * - _bss_start
 apu_thi_prev:           .res NUM_CHANNELS
 
 .CODE
+
+;==============================================================================
+; Delay between VRC7 register writes
+;
+; According to https://wiki.nesdev.org/w/index.php?title=VRC7_audio,
+; writes to the VRC7 data register must be followed by at least a
+; 42-clock delay.
+;
+; Writes to the VRC7 select register must be followed by at least a
+; 6-clock delay.
+;==============================================================================
+vrc7_data_delay:
+                    ; 6 clocks: jsr to get here
+    pha             ; 3 clocks
+    lda     $8000   ; 4 clocks
+    lda     $8000   ; 4 clocks
+    lda     $8000   ; 4 clocks
+    lda     $8000   ; 4 clocks
+    lda     $8000   ; 4 clocks
+    lda     $8000   ; 4 clocks
+    pla             ; 4 clocks
+vrc7_sel_delay:
+    rts             ; 6 clocks
+                    ; 43 clocks total
+
+.macro write_vrc7_sel register
+    .if (.match({register}, a))
+        sta VRC7_SEL
+    .elseif (.match({register}, x))
+        stx VRC7_SEL
+    .elseif (.match({register}, y))
+        sty VRC7_SEL
+    .else
+        .error "Syntax error"
+    .endif
+        jsr vrc7_sel_delay
+.endmacro
+
+.macro write_vrc7_data register
+    .if (.match({register}, a))
+        sta VRC7_DATA
+    .elseif (.match({register}, x))
+        stx VRC7_DATA
+    .elseif (.match({register}, y))
+        sty VRC7_DATA
+    .else
+        .error "Syntax error"
+    .endif
+        jsr vrc7_data_delay
+.endmacro
+
 ;==============================================================================
 ; Initialize the player
 ;
@@ -175,10 +226,10 @@ init_thi_prev:
     ldx     #VRC7_CHANNEL
 vrc7_loop:
     lda     vrc_reg_3,x
-    sta     VRC7_REG
+    write_vrc7_sel a
     lda     channel_instrument,x
     ora     #$F
-    sta     VRC7_DATA
+    write_vrc7_data a
     inx
     cpx     #NUM_CHANNELS
     bne     vrc7_loop
@@ -422,8 +473,8 @@ note_event:
     ldy     #7                      ; valid ptr is a custom VRC7 patch; 8 bytes
 custom_patch:
     lda     (ptr2),y                ; load the custom patch
-    sty     VRC7_REG
-    sta     VRC7_DATA
+    write_vrc7_sel y
+    write_vrc7_data a
     dey
     bpl     custom_patch
     lda     #0                      ; custom patch is patch number 0
@@ -676,41 +727,44 @@ regs_done:
     ldy     channel_note,x          ; note_number
 
     lda     vrc_reg_2,x             ; register $2x is the freq msb & trigger bit
-    sta     VRC7_REG
+    write_vrc7_sel a
     lda     channel_env_state,x     ; we reuse env_state as the trigger value
     cmp     #ENV_ON                 ; just got a note_on event?
     bne     note_off
-    dec     channel_env_state,x
+    dec     channel_env_state,x     ; "ENV_ON-1" has no meaning, so we'll skip this next time
     lda     vrc_reg_3,x             ; register $3x is the volume
-    sta     VRC7_REG
-    lda     #$f
-    sta     VRC7_DATA               ; kill the volume before zapping the trigger
+    write_vrc7_sel a
+    lda     #$f                     ; zero volume
+    ora     channel_instrument,x
+    write_vrc7_data a
     lda     vrc_reg_2,x             ; register $2x is the freq msb & trigger bit
-    sta     VRC7_REG
+    write_vrc7_sel a
     lda     #0
-    sta     VRC7_DATA               ; zero out the data reg to retrigger
-    beq     note_on
+    ora     vrc7_notes_msb,y
+    write_vrc7_data a
+    jmp     note_on
 note_off:
     cmp     #ENV_RELEASE            ; note_off event?
-    beq     note_val                ; A is already zero, so zeros out trigger bit
     bne     done
+    lda     #0                      ; Clear the trigger bit
+    beq     note_val
 note_on:
     lda     #$10                    ; otherwise set the trigger bit
 note_val: 
     ora     vrc7_notes_msb,y
-    sta     VRC7_DATA
+    write_vrc7_data a
 
     lda     vrc_reg_1,x             ; register $1x is the freq lsb
-    sta     VRC7_REG
+    write_vrc7_sel a
     lda     vrc7_notes_lsb,y
-    sta     VRC7_DATA
+    write_vrc7_data a
 
     lda     vrc_reg_3,x             ; register $3x is the volume
-    sta     VRC7_REG
+    write_vrc7_sel a
     ldy     channel_volume,x
     lda     vrc7_volume_table,y
     ora     channel_instrument,x
-    sta     VRC7_DATA
+    write_vrc7_data a
 done:
     rts
 .endproc

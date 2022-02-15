@@ -14,7 +14,6 @@ are still some miscellaneous bugs.
 - Music doesn't always restart when it should (e.g. after picking up a
   boss key).
 - The Zelda 2 sound effects aren't all reproduced with perfect fidelity.
-- There are some occasional high-pitched chirps in the VRC7 playback.
 
 ## Music
 
