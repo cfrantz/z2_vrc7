@@ -730,7 +730,7 @@ town_item_fanfare_piano__pulse2_data:
 town_item_fanfare_piano__pulse2_sequence:
     .BYT  $01,$00
 town_item_fanfare_piano__pulse2_measure1:
-    .BYT  $20,$28,$0d,$3c,$f5,$11,$ff,$3d,$f5,$11,$ff,$3e,$f5,$11,$ff,$3f,$de,$11,$e6,$00
+    .BYT  $20,$28,$0d,$3c,$f5,$11,$ff,$3d,$f5,$11,$ff,$3e,$f5,$11,$ff,$3f,$de,$11,$e7,$12,$14,$ff,$00
 town_item_fanfare_piano__pulse1_data:
     .WORD town_item_fanfare_piano__pulse1_sequence
     .WORD town_item_fanfare_piano__pulse1_measure1

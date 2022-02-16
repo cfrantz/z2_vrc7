@@ -69,6 +69,15 @@ tracks {
         note: 63
       }
     }
+    frames {
+      frame: 95
+      other {
+        song_end: true
+      }
+      other {
+        restart_last_song: true
+      }
+    }
   }
   sequence: 0
 }
