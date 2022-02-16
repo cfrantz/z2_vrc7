@@ -3,8 +3,7 @@
     {
         "phase_reset": true,
         "frame": 0,
-        // Write $00 to $E1 which stops music.
-        "zp_write": [225, 0],
+        "stop_music": true,
         "12": 16,
         "8": 0,
         "0": 94,

@@ -65,6 +65,10 @@ class EffectToAsm(object):
                     newregs.extend([0x01, addr, val])
                     write = True
                     continue
+                if k == 'stop_music':
+                    newregs.extend([0x02])
+                    write = True
+                    continue
                 reg = int(k)
                 if reg in ignore:
                     continue

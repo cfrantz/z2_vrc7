@@ -82,6 +82,15 @@ TITLE_SCREEN_HACK = $15
 PROGRAM_CHANGE = $20
 
 ;==============================================================================
+; Opcodes in the SFX "command list"
+;==============================================================================
+; $00: terminator (end of measure)
+; $01: ZP write
+; $02: Cancel currently playing song.
+; $4x: Write to APU register $4000+x
+; $80 - $FF: delay (two's compliment, count up to zero).
+
+;==============================================================================
 ; Channel envelope states
 ;==============================================================================
 ENV_OFF = 0
@@ -270,7 +279,7 @@ done:
 .endproc
 
 ;==============================================================================
-; Reset player variables for processig a song
+; Reset player variables for processing a song
 ;
 ;==============================================================================
 .proc _cfplayer_reset_song
@@ -836,7 +845,9 @@ loop:
     bmi     save_delay              ; negative values are delays
     beq     terminate               ; zero byte is the terminator
     inc16   ptr1                    ; increment pointer
-    cmp     #$01                    ; 
+    cmp     #$02                    ; Stop current song
+    beq     stop_current_song
+    cmp     #$01                    ; Zero page write opcode
     beq     sfx_zp_write
     and     #$1F                    ; keep apu reg index
     sta     reg_index
@@ -895,6 +906,13 @@ save_delay:
     inc16   ptr1
 done:
     rts
+
+stop_current_song:
+    jsr     _cfplayer_reset_song    ; clobbers A and X
+    sta     _cfplayer_now_playing
+    sta     _cfplayer_now_playing+1
+    ldx     sfx_chan                ; get SFX channel back into X
+    jmp     loop
 .endproc
 
 ; Note tables
