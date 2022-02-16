@@ -5,7 +5,7 @@ import os
 import os.path
 from pprint import pprint
 
-CC65_BINDIR = '/usr/local/cc65/bin'
+CC65 = '/usr/local/cc65'
 
 MUSIC_FILES = [
     ('z2_overworld.s', 29),
@@ -42,12 +42,13 @@ def print_symtab(tab):
         print('    {}: ${:04x}'.format(k, v))
 
 def compile(musicdir, filename, cfg):
+    cc65 = os.environ.get('CC65', CC65)
     basename, _ = os.path.splitext(filename)
     subprocess.check_call(f"""
         set -e
         cd {musicdir}
-        {CC65_BINDIR}/ca65 {filename}
-        {CC65_BINDIR}/ld65 -C {cfg} -vm --mapfile {basename}.map -o {basename}.bin {basename}.o
+        {cc65}/bin/ca65 {filename}
+        {cc65}/bin/ld65 -C {cfg} -vm --mapfile {basename}.map -o {basename}.bin {basename}.o
     """, shell=True)
     binfile = os.path.join(musicdir, f'{basename}.bin')
     symbols = parse_mapfile(os.path.join(musicdir, f'{basename}.map'))

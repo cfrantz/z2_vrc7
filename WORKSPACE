@@ -25,10 +25,19 @@ bazel_skylib_workspace()
 ######################################################################
 # Reference protones for midi conversion tools
 ######################################################################
-local_repository(
+
+## Local repository rule for development.
+##local_repository(
+##    name = "protones",
+##    path = "../protones",
+##)
+
+git_repository(
     name = "protones",
-    path = "/home/cfrantz/src/protones",
+    remote = "https://github.com/cfrantz/protones",
+    tag = "vrc7_support",
 )
+
 load("@protones//:workspace.bzl", "protones_deps")
 protones_deps()
 
