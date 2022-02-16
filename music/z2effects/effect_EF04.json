@@ -1,3 +1,4 @@
+// Effect $EF=$04: Enemy Kill
 [
     {
         "phase_reset": true,

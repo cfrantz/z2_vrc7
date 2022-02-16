@@ -1,3 +1,4 @@
+// Effect $EE=$04: Leave encounter
 [
     {
         "phase_reset": true,

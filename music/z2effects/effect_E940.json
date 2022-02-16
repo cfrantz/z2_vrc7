@@ -1,4 +1,5 @@
-// Title screen effect $EB=$04: Move cursor
+// Effect $E9=$40: Title Screen Move Cursor sound.
+// Originally Title screen effect $EB=$04.
 [
     {
         "frame": 0,

@@ -1,4 +1,5 @@
-// Multi-bit effect $EC=$60: Town-text typewriter sound
+// Effect $E9=$04: Town-text typewriter sound
+// Originally multi-bit effect $EC=$60.
 [
     {
         "frame": 0,

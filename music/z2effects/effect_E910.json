@@ -1,4 +1,5 @@
-// Title screen effect $EB=$01: Pick a letter
+// Effect $E9=$10: Title Screen Pick a Letter sound.
+// Originally Title screen effect $EB=$01.
 [
     {
         "frame": 0,

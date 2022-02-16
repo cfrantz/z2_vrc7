@@ -1,4 +1,5 @@
-// Title screen effect $EB=$08: Delete a file
+// Effect $E9=$80: Title Screen Delete a File sound
+// Originally Title screen effect $EB=$08.
 [
     {
         "frame": 0,

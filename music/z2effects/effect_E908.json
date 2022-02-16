@@ -1,4 +1,5 @@
-// Multi-bit effect $EC=$C0: Fairy/Raft sound
+// Effect $E9=$08: Fairy/Raft sound
+// Originally multi-bit effect $EC=$C0.
 [
     {
         "frame": 0,
