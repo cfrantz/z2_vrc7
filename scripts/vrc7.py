@@ -140,6 +140,17 @@ try:
         jsr     $ffb1
     """)
 
+    asm("""
+    .bank 1
+    .org $9d6b                                                                       
+        ; This is most certainly a bug in the game code - this store can never       
+        ; work.                                                                      
+        ; sta $95e6                                                                  
+        nop                                                                          
+        nop                                                                          
+        nop                 
+    """)
+
 except Exception as e:
     traceback.print_exc()
     raise e
