@@ -40,7 +40,7 @@ _sound_effects:
     .word @effect_EF10
     .word @effect_EF20
     .word @effect_EF40
-    .word $0000
+    .word @effect_EF80
 
 
 @effect_E901: ; (13 bytes)
@@ -220,25 +220,11 @@ _sound_effects:
     .byte $97,$42,$0e,$ff,$40,$96,$42,$0a,$ff,$40,$95,$42,$06,$ff,$40,$94
     .byte $42,$02,$ff,$40,$93,$42,$fd,$43,$0b,$ff,$40,$92,$42,$e3,$ff,$40
     .byte $10,$42,$c7,$ff,$00
-@effect_EC80: ; (273 bytes)
+@effect_EC80: ; (51 bytes)
     .byte $4c,$1f,$4e,$0c,$4f,$08,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c
     .byte $fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e,$4e,$04,$fe,$4c,$1d,$4e,$05,$fe
-    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$fe,$4c
-    .byte $1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e
-    .byte $4e,$04,$fe,$4c,$1d,$4e,$05,$fe,$4c,$1c,$4e,$06,$fe,$4c,$1b,$4e
-    .byte $07,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c
-    .byte $fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e,$4e,$04,$fe,$4c,$1d,$4e,$05,$fe
-    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$fe,$4c
-    .byte $1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e
-    .byte $4e,$04,$fe,$4c,$1d,$4e,$05,$fe,$4c,$1c,$4e,$06,$fe,$4c,$1b,$4e
-    .byte $07,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c
-    .byte $fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e,$4e,$04,$fe,$4c,$1d,$4e,$05,$fe
-    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$fe,$4c
-    .byte $1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e
-    .byte $4e,$04,$fe,$4c,$1d,$4e,$05,$fe,$4c,$1c,$4e,$06,$fe,$4c,$1b,$4e
-    .byte $07,$fe,$4c,$1a,$4e,$08,$fe,$4c,$19,$4e,$06,$fe,$4c,$17,$4e,$08
-    .byte $fe,$4c,$15,$4e,$06,$fe,$4c,$13,$4e,$08,$fe,$4c,$10,$4e,$06,$ff
-    .byte $00
+    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$ff,$4c
+    .byte $10,$ff,$00
 @effect_ED02: ; (17 bytes)
     .byte $48,$18,$4a,$fc,$4b,$09,$4c,$1a,$4e,$0c,$4f,$08,$fb,$4c,$10,$ff
     .byte $00
@@ -360,5 +346,24 @@ _sound_effects:
     .byte $40,$1a,$41,$7f,$42,$ff,$43,$0d,$f9,$42,$00,$fc,$40,$90,$ff,$00
 @effect_EF40: ; (13 bytes)
     .byte $40,$96,$41,$7f,$42,$60,$43,$70,$d1,$40,$90,$ff,$00
+@effect_EF80: ; (273 bytes)
+    .byte $4c,$1f,$4e,$0c,$4f,$08,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c
+    .byte $fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e,$4e,$04,$fe,$4c,$1d,$4e,$05,$fe
+    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$fe,$4c
+    .byte $1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e
+    .byte $4e,$04,$fe,$4c,$1d,$4e,$05,$fe,$4c,$1c,$4e,$06,$fe,$4c,$1b,$4e
+    .byte $07,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c
+    .byte $fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e,$4e,$04,$fe,$4c,$1d,$4e,$05,$fe
+    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$fe,$4c
+    .byte $1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e
+    .byte $4e,$04,$fe,$4c,$1d,$4e,$05,$fe,$4c,$1c,$4e,$06,$fe,$4c,$1b,$4e
+    .byte $07,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c
+    .byte $fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e,$4e,$04,$fe,$4c,$1d,$4e,$05,$fe
+    .byte $4c,$1c,$4e,$06,$fe,$4c,$1b,$4e,$07,$fe,$4c,$1f,$4e,$0c,$fe,$4c
+    .byte $1d,$4e,$0e,$fe,$4c,$1f,$4e,$0c,$fe,$4c,$1d,$4e,$0e,$fe,$4c,$1e
+    .byte $4e,$04,$fe,$4c,$1d,$4e,$05,$fe,$4c,$1c,$4e,$06,$fe,$4c,$1b,$4e
+    .byte $07,$fe,$4c,$1a,$4e,$08,$fe,$4c,$19,$4e,$06,$fe,$4c,$17,$4e,$08
+    .byte $fe,$4c,$15,$4e,$06,$fe,$4c,$13,$4e,$08,$fe,$4c,$10,$4e,$06,$ff
+    .byte $00
 
-; end (4270 bytes)
+; end (4321 bytes)

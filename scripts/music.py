@@ -146,6 +146,14 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
     .org $d92b
         lda #$08            ; Fairy sound
         sta $e9
+
+    .org $dce9
+        lda #$80            ; Boss Death
+        sta $EF
+
+    .org $d9b2
+        nop                 ; Used to be locked door cancel, but we don't
+        nop                 ; need that anymore.
     """)
 
     asm("""
