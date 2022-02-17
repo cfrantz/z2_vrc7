@@ -112,7 +112,16 @@ check_sfx_loop:
     bmi sfx_done
     lda $ec,y               ; Anything to play
     beq check_sfx_loop      ; no, check next byte
+    ldx $07fc,y             ; Currently playing sfx?
+    beq save_sfx            ; none
+    cmp $07fc,y
+    beq save_sfx            ; if request == current, allowed to restart it
+    bcc check_sfx_loop      ; if request < current, play it
+    lda #0                  ; zero out the sound effect register
+    sta $ec,y
+    beq check_sfx_loop
 
+save_sfx:
     sta $07fc,y             ; Save in SFX now playing location
     pha                     ; Save A for later
     tya                     ; yes, compute SFX offset
