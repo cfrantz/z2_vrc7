@@ -107,7 +107,7 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
         lda #$40            ; cursor move sound
         sta $e9
     .org $b47a
-        lda #$80            ; delete file sound
+        lda #$08            ; delete file sound
         sta $e9
     .org $b4ac
         lda #$40            ; cursor move sound
@@ -139,12 +139,13 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
 
     .bank 0
     .org $85c0
-        lda #$08            ; Fairy sound (raft)
+        lda #$80            ; Fairy sound (raft)
         sta $e9
+        nop
 
     .bank -1
     .org $d92b
-        lda #$08            ; Fairy sound
+        lda #$80            ; Fairy sound
         sta $e9
 
     .org $dce9
