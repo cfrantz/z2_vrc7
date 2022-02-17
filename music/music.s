@@ -9,6 +9,7 @@
 ;======================================================================================================================
 
 ZELDA2_INTEGRATION = 1
+CFPLAYER_DEBUG = 1
 
 .export _music_init
 .export _music_nmi_title_screen

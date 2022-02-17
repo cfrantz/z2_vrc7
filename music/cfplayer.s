@@ -13,21 +13,23 @@
 ;==============================================================================
 ; Exports for debug
 ;==============================================================================
-; .export process_envelopes
-; .export process_envelope_state
-; .export load_envelope_ptr
-; .export channel_delay
-; .export channel_seq_pos
-; .export channel_meas_pos
-; .export channel_note
-; .export channel_volume
-; .export channel_instrument
-; .export channel_env_state
-; .export channel_env_vol
-; .export channel_env_arp
-; .export channel_env_pitch
-; .export channel_env_duty
-; .export channel_owner
+.IFDEF CFPLAYER_DEBUG
+.export process_envelopes
+.export process_envelope_state
+.export load_envelope_ptr
+.export channel_delay
+.export channel_seq_pos
+.export channel_meas_pos
+.export channel_note
+.export channel_volume
+.export channel_instrument
+.export channel_env_state
+.export channel_env_vol
+.export channel_env_arp
+.export channel_env_pitch
+.export channel_env_duty
+.export channel_owner
+.ENDIF
 
 ;==============================================================================
 ; Imported symbols
