@@ -233,7 +233,11 @@ init_thi_prev:
     sta     $5004
     lda     #$80                    ; triangle zero volume value
     sta     $4008
+    jsr     _vrc7_silence
+    rts
+.endproc
 
+.proc _vrc7_silence
     ldx     #VRC7_CHANNEL
 vrc7_loop:
     lda     vrc_reg_3,x
@@ -244,7 +248,21 @@ vrc7_loop:
     inx
     cpx     #NUM_CHANNELS
     bne     vrc7_loop
-     
+    rts
+.endproc
+
+.proc _vrc7_unsilence
+    ldx     #VRC7_CHANNEL
+vrc7_loop:
+    lda     vrc_reg_3,x
+    write_vrc7_sel a
+    ldy     channel_volume,x
+    lda     vrc7_volume_table,y
+    ora     channel_instrument,x
+    write_vrc7_data a
+    inx
+    cpx     #NUM_CHANNELS
+    bne     vrc7_loop
     rts
 .endproc
 
@@ -266,15 +284,18 @@ vrc7_loop:
     txa                         ; X->A for Z-flag side effect
     beq     pause
 unpause:
+    jsr     _vrc7_unsilence
     ldx     #$1f                ; All APU channels enabled
     stx     $4015
     ldx     #3                  ; MMC5 Pulse channels enabled
     stx     $5015
     bne     done
 pause:
+    jsr     _vrc7_silence
     ldx     #0                  ; Silence at the enable bits
     stx     $4015
     stx     $5015
+    stx     apu_thi_prev+3      ; zap the noise length counter so we re-write it when we unpause
 done:
     txa                         ; X->A for Z-flag side effect
     rts
