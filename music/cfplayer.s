@@ -654,7 +654,9 @@ arpeggio_value:
     tay
     cpx     #3                      ; drum channel?
     bne     arpeggio_standard
-    lda     drum_period,y
+    lda     #8                      ; Set the length counter in the noise channel
+    sta     apu_shadow_thi
+    lda     drum_period,y           ; Get the noise period
     sta     apu_shadow_tlo
     jmp     arpeggio_done
 arpeggio_standard:
