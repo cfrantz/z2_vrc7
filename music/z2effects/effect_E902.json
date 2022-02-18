@@ -401,6 +401,9 @@
     },
     {
         "frame": 96,
+        // Write to the noise length-counter so that drums will play when
+        // gameplay starts again.
+        "15": 16,
         "21": 15
     }
 ]
