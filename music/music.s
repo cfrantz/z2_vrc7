@@ -101,6 +101,11 @@ play_song:
     sta _cfplayer_now_playing
     lda _song_table+1,x
     sta _cfplayer_now_playing+1
+    cpx #14                 ; song $80 (no music)
+    bne reset_song
+    lda #0
+    sta $07fb               ; zap "currently playing" register.
+reset_song:
     jsr _cfplayer_reset_song
 
 next_check:
