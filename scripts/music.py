@@ -181,7 +181,7 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
 
 
     if irq_drives_scroll:
-        length = 100
+        length = 105
         freespace = edit.alloc_near(Address.prg(-1, 0x8000), length).addr()
         symtab['freespace'] = freespace
         symtab['freespace_end'] = freespace+length
@@ -300,17 +300,20 @@ def hack(edit, asm, symtab=None, irq_drives_scroll=True):
             tya
             pha
             lda $F010               ; ack any prior irq
-        sprite0hit:
+            bit $0100               ; high-level state variable(?)
+            bvc _sprite0done        ; if bit6 not set, going to title screen.
+        _sprite0hit:
             bit $2002               ; maybe we don't need to wait here.
-            bvc sprite0hit
+            bvc _sprite0hit
+        _sprite0done:
             lda $ff
             ora $0746
             sta $ff
             ldx $fd
             ldy #$10
-        sprite0delay:
+        _sprite0delay:
             dey
-            bne sprite0delay
+            bne _sprite0delay
             sta $2000
             stx $2005
             sty $2005
