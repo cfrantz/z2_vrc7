@@ -179,6 +179,8 @@ _instruments_table:
     .WORD 0,0,0,$0003
     ; Instrument name: 'snare', type: 2A03
     .WORD env_snare_volume,0,0,0
+    ; Instrument name: 'synth', type: VRC7
+    .WORD 0,0,0,$000e
     ; Instrument name: 'brass', type: VRC7
     .WORD 0,0,0,$000c
     ; Instrument name: 'organ', type: VRC7
@@ -402,7 +404,7 @@ palace_bass_guitar__triangle_data:
 palace_bass_guitar__triangle_sequence:
     .BYT  $01,$02,$03,$02,$04,$02,$03,$02,$05,$06,$05,$06,$05,$06,$05,$07,$04,$02,$03,$02,$04,$02,$03,$02,$08,$08,$09,$09,$08,$08,$0a,$0b,$0c,$0c,$0d,$0d,$0e,$0e,$0d,$0d,$0c,$0c,$0d,$0d,$0e,$0e,$0d,$0d,$05,$06,$05,$06,$05,$06,$05,$07,$80,$00
 palace_bass_guitar__triangle_measure1:
-    .BYT  $20,$08,$0d,$37,$e8,$32,$f4,$37,$e8,$32,$f4,$3a,$f4,$32,$f4,$00
+    .BYT  $20,$20,$0d,$37,$e8,$32,$f4,$37,$e8,$32,$f4,$3a,$f4,$32,$f4,$00
 palace_bass_guitar__triangle_measure2:
     .BYT  $37,$e8,$33,$f4,$37,$e8,$33,$f4,$3a,$f4,$33,$f4,$00
 palace_bass_guitar__triangle_measure3:
@@ -450,7 +452,7 @@ boss_piano__pulse2_data:
 boss_piano__pulse2_sequence:
     .BYT  $01,$02,$03,$02,$04,$05,$04,$05,$80,$00
 boss_piano__pulse2_measure1:
-    .BYT  $20,$20,$0d,$3c,$e4,$11,$fe,$3f,$e4,$11,$fe,$3e,$ed,$11,$ff,$00
+    .BYT  $20,$28,$0d,$3c,$e4,$11,$fe,$3f,$e4,$11,$fe,$3e,$ed,$11,$ff,$00
 boss_piano__pulse2_measure2:
     .BYT  $41,$e4,$11,$fe,$3f,$e4,$11,$fe,$3e,$ed,$11,$ff,$00
 boss_piano__pulse2_measure3:
@@ -469,7 +471,7 @@ boss_piano__pulse1_data:
 boss_piano__pulse1_sequence:
     .BYT  $01,$02,$03,$02,$04,$05,$04,$05,$80,$00
 boss_piano__pulse1_measure1:
-    .BYT  $20,$20,$0d,$41,$e4,$11,$fe,$44,$e4,$11,$fe,$43,$ed,$11,$ff,$00
+    .BYT  $20,$28,$0d,$41,$e4,$11,$fe,$44,$e4,$11,$fe,$43,$ed,$11,$ff,$00
 boss_piano__pulse1_measure2:
     .BYT  $46,$e4,$11,$fe,$44,$e4,$11,$fe,$43,$ed,$11,$ff,$00
 boss_piano__pulse1_measure3:
@@ -509,7 +511,7 @@ cave_item_fanfare_piano__pulse2_data:
 cave_item_fanfare_piano__pulse2_sequence:
     .BYT  $01,$02,$00
 cave_item_fanfare_piano__pulse2_measure1:
-    .BYT  $20,$28,$0d,$46,$f5,$11,$ff,$41,$f5,$11,$ff,$3e,$f5,$11,$ff,$46,$f5,$11,$ff,$43,$f5,$11,$ff,$3f,$f5,$11,$ff,$4a,$e8,$00
+    .BYT  $20,$30,$0d,$46,$f5,$11,$ff,$41,$f5,$11,$ff,$3e,$f5,$11,$ff,$46,$f5,$11,$ff,$43,$f5,$11,$ff,$3f,$f5,$11,$ff,$4a,$e8,$00
 cave_item_fanfare_piano__pulse2_measure2:
     .BYT  $f6,$11,$ab,$12,$14,$ff,$00
 cave_item_fanfare_piano__pulse1_data:
@@ -519,7 +521,7 @@ cave_item_fanfare_piano__pulse1_data:
 cave_item_fanfare_piano__pulse1_sequence:
     .BYT  $01,$02,$00
 cave_item_fanfare_piano__pulse1_measure1:
-    .BYT  $20,$28,$0d,$4a,$f5,$11,$ff,$46,$f5,$11,$ff,$41,$f5,$11,$ff,$4b,$f5,$11,$ff,$46,$f5,$11,$ff,$43,$f5,$11,$ff,$4d,$e8,$00
+    .BYT  $20,$30,$0d,$4a,$f5,$11,$ff,$46,$f5,$11,$ff,$41,$f5,$11,$ff,$4b,$f5,$11,$ff,$46,$f5,$11,$ff,$43,$f5,$11,$ff,$4d,$e8,$00
 cave_item_fanfare_piano__pulse1_measure2:
     .BYT  $f6,$11,$aa,$00
 cave_item_fanfare_bass_guitar__triangle_data:

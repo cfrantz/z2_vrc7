@@ -171,8 +171,8 @@ _drum_patch:
 
 .export _instruments_table
 _instruments_table:
-    ; Instrument name: 'vibraphone', type: VRC7
-    .WORD 0,0,0,$000a
+    ; Instrument name: 'guitar', type: VRC7
+    .WORD 0,0,0,$0002
     ; Instrument name: 'bass', type: VRC7
     .WORD 0,0,0,$000d
     ; Instrument name: 'piano', type: VRC7

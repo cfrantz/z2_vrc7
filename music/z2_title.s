@@ -179,8 +179,8 @@ _instruments_table:
     .WORD env_hat_volume,0,0,0
     ; Instrument name: 'bass', type: VRC7
     .WORD 0,0,0,$000d
-    ; Instrument name: 'flute', type: VRC7
-    .WORD 0,0,0,$0004
+    ; Instrument name: 'chorus', type: VRC7
+    .WORD 0,0,0,$000f
     ; Instrument name: 'guitar', type: VRC7
     .WORD 0,0,0,$0002
 
