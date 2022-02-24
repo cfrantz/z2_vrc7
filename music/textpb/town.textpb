@@ -9,7 +9,7 @@ tracks {
   measures {
     frames {
       other {
-        program_change: 11
+        program_change: 27
       }
     }
     frames {
@@ -2304,7 +2304,7 @@ tracks {
   measures {
     frames {
       other {
-        program_change: 11
+        program_change: 27
       }
     }
     frames {

@@ -14,7 +14,7 @@ tracks {
         velocity: 64
       }
       other {
-        program_change: 0
+        program_change: 53
       }
     }
     frames {
@@ -1118,7 +1118,7 @@ tracks {
         velocity: 64
       }
       other {
-        program_change: 0
+        program_change: 53
       }
     }
     frames {
@@ -4267,13 +4267,13 @@ tracks {
         velocity: 64
       }
     }
-    frames {
-      frame: 105
-      note {
-        kind: OFF
-        note: 38
-      }
-    }
+    #frames {
+    #  frame: 105
+    #  note {
+    #    kind: OFF
+    #    note: 38
+    #  }
+    #}
   }
   sequence: 0
   sequence: 1

@@ -2997,7 +2997,7 @@ tracks {
         velocity: 64
       }
       other {
-        program_change: 34
+        program_change: 80
       }
     }
     frames {

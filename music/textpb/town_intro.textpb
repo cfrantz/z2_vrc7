@@ -14,7 +14,7 @@ tracks {
         velocity: 64
       }
       other {
-        program_change: 11
+        program_change: 27
       }
     }
     frames {
@@ -129,7 +129,7 @@ tracks {
         velocity: 64
       }
       other {
-        program_change: 11
+        program_change: 27
       }
     }
     frames {
