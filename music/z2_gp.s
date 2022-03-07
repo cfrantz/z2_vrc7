@@ -404,53 +404,14 @@ credits_drumset__noise_data:
     .WORD credits_drumset__noise_measure1
     .WORD credits_drumset__noise_measure2
     .WORD credits_drumset__noise_measure3
-    .WORD credits_drumset__noise_measure4
-    .WORD credits_drumset__noise_measure5
-    .WORD credits_drumset__noise_measure6
-    .WORD credits_drumset__noise_measure7
-    .WORD credits_drumset__noise_measure8
-    .WORD credits_drumset__noise_measure9
-    .WORD credits_drumset__noise_measure10
-    .WORD credits_drumset__noise_measure11
-    .WORD credits_drumset__noise_measure12
-    .WORD credits_drumset__noise_measure13
-    .WORD credits_drumset__noise_measure14
-    .WORD credits_drumset__noise_measure15
-    .WORD credits_drumset__noise_measure16
 credits_drumset__noise_sequence:
-    .BYT  $01,$02,$03,$04,$05,$06,$07,$08,$09,$0a,$0b,$0c,$0d,$0e,$0f,$10,$80,$00
+    .BYT  $01,$02,$02,$02,$02,$02,$02,$02,$03,$03,$03,$03,$03,$03,$03,$03,$80,$00
 credits_drumset__noise_measure1:
-    .BYT  $20,$10,$0d,$21,$e4,$21,$f7,$11,$ff,$21,$f7,$21,$f7,$21,$e4,$21,$e4,$11,$ff,$00
+    .BYT  $20,$10,$0d,$21,$e5,$11,$ff,$21,$f7,$21,$f7,$21,$f7,$11,$ff,$21,$e5,$11,$ff,$21,$e5,$11,$ff,$00
 credits_drumset__noise_measure2:
-    .BYT  $21,$e4,$21,$f7,$21,$f7,$21,$f6,$21,$e4,$21,$e4,$21,$ff,$00
+    .BYT  $21,$e5,$11,$ff,$21,$f7,$21,$f7,$21,$f7,$11,$ff,$21,$e5,$11,$ff,$21,$e5,$11,$ff,$00
 credits_drumset__noise_measure3:
-    .BYT  $e5,$21,$f7,$11,$ff,$21,$f7,$21,$f7,$21,$e4,$21,$e4,$11,$ff,$21,$ff,$00
-credits_drumset__noise_measure4:
-    .BYT  $e5,$21,$f7,$21,$f7,$21,$f6,$21,$e4,$21,$e4,$21,$fe,$00
-credits_drumset__noise_measure5:
-    .BYT  $e6,$21,$f7,$11,$ff,$21,$f7,$21,$f7,$21,$e4,$21,$e4,$11,$ff,$21,$fe,$00
-credits_drumset__noise_measure6:
-    .BYT  $e6,$21,$f7,$21,$f7,$21,$f6,$21,$e4,$21,$e4,$21,$fd,$00
-credits_drumset__noise_measure7:
-    .BYT  $e7,$21,$f7,$11,$ff,$21,$f7,$21,$f7,$21,$e4,$21,$e4,$11,$ff,$21,$fd,$00
-credits_drumset__noise_measure8:
-    .BYT  $e7,$21,$f7,$21,$f7,$21,$f6,$21,$e4,$21,$e4,$21,$fc,$00
-credits_drumset__noise_measure9:
-    .BYT  $f6,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$11,$ff,$21,$fc,$00
-credits_drumset__noise_measure10:
-    .BYT  $f6,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$fb,$00
-credits_drumset__noise_measure11:
-    .BYT  $f7,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$11,$ff,$21,$fb,$00
-credits_drumset__noise_measure12:
-    .BYT  $f7,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$fa,$00
-credits_drumset__noise_measure13:
-    .BYT  $f8,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$11,$ff,$21,$fa,$00
-credits_drumset__noise_measure14:
-    .BYT  $f8,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f9,$00
-credits_drumset__noise_measure15:
-    .BYT  $f9,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$11,$ff,$21,$f9,$00
-credits_drumset__noise_measure16:
-    .BYT  $f9,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$f2,$21,$ea,$00
+    .BYT  $21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$00
 credits_piano__pulse2_data:
     .WORD credits_piano__pulse2_sequence
     .WORD credits_piano__pulse2_measure1
@@ -462,47 +423,26 @@ credits_piano__pulse2_data:
     .WORD credits_piano__pulse2_measure7
     .WORD credits_piano__pulse2_measure8
     .WORD credits_piano__pulse2_measure9
-    .WORD credits_piano__pulse2_measure10
-    .WORD credits_piano__pulse2_measure11
-    .WORD credits_piano__pulse2_measure12
-    .WORD credits_piano__pulse2_measure13
-    .WORD credits_piano__pulse2_measure14
-    .WORD credits_piano__pulse2_measure15
-    .WORD credits_piano__pulse2_measure16
 credits_piano__pulse2_sequence:
-    .BYT  $01,$02,$03,$04,$05,$06,$07,$08,$09,$0a,$0b,$0c,$0d,$0e,$0f,$10,$80,$00
+    .BYT  $01,$02,$03,$02,$04,$05,$04,$05,$06,$07,$08,$09,$06,$07,$08,$09,$80,$00
 credits_piano__pulse2_measure1:
-    .BYT  $20,$20,$0d,$3c,$cb,$11,$e1,$3c,$e5,$11,$fe,$00
+    .BYT  $20,$20,$0d,$3c,$cb,$11,$e1,$3c,$e6,$11,$fe,$00
 credits_piano__pulse2_measure2:
-    .BYT  $3d,$ed,$11,$fe,$3d,$fa,$11,$ff,$3d,$cb,$11,$fd,$3d,$f3,$11,$ff,$3d,$f3,$11,$ff,$3c,$ff,$00
+    .BYT  $3d,$ed,$11,$fe,$3d,$fa,$11,$ff,$3d,$cb,$11,$fd,$3d,$f3,$11,$ff,$3d,$f3,$11,$ff,$00
 credits_piano__pulse2_measure3:
-    .BYT  $cc,$11,$e1,$3c,$e5,$11,$fe,$3d,$ff,$00
+    .BYT  $3c,$cb,$11,$e1,$3c,$e6,$11,$fe,$00
 credits_piano__pulse2_measure4:
-    .BYT  $ee,$11,$fe,$3d,$fa,$11,$ff,$3d,$cb,$11,$fd,$3d,$f3,$11,$ff,$3d,$f3,$11,$ff,$3a,$fe,$00
+    .BYT  $3a,$cb,$11,$fd,$3a,$e6,$11,$fe,$3a,$e6,$11,$fe,$00
 credits_piano__pulse2_measure5:
-    .BYT  $cd,$11,$fd,$3a,$e5,$11,$ff,$3a,$e5,$11,$fe,$3b,$fe,$00
+    .BYT  $3b,$e6,$11,$fe,$3b,$e6,$11,$fe,$3b,$e6,$11,$fe,$3b,$e6,$11,$fe,$00
 credits_piano__pulse2_measure6:
-    .BYT  $e8,$11,$fe,$3b,$e6,$11,$fe,$3b,$e6,$11,$fe,$3b,$e5,$11,$ff,$3a,$fd,$00
+    .BYT  $38,$cb,$11,$fd,$38,$e6,$11,$fe,$38,$e6,$11,$fe,$00
 credits_piano__pulse2_measure7:
-    .BYT  $ce,$11,$fd,$3a,$e5,$11,$ff,$3a,$e5,$11,$fe,$3b,$fd,$00
+    .BYT  $37,$ed,$11,$fe,$40,$fa,$11,$ff,$43,$cb,$11,$fd,$41,$f3,$11,$ff,$43,$f3,$11,$ff,$00
 credits_piano__pulse2_measure8:
-    .BYT  $e9,$11,$fe,$3b,$e6,$11,$fe,$3b,$e6,$11,$fe,$3b,$e5,$11,$ff,$38,$fc,$00
+    .BYT  $41,$e6,$11,$fe,$41,$e6,$11,$fe,$41,$e6,$11,$fe,$41,$e6,$11,$fe,$00
 credits_piano__pulse2_measure9:
-    .BYT  $cf,$11,$fd,$38,$e5,$11,$ff,$38,$e5,$11,$fe,$37,$fc,$00
-credits_piano__pulse2_measure10:
-    .BYT  $f1,$11,$fe,$40,$fa,$11,$ff,$43,$cb,$11,$fd,$41,$f3,$11,$ff,$43,$f3,$11,$ff,$41,$fb,$00
-credits_piano__pulse2_measure11:
-    .BYT  $ea,$11,$ff,$41,$e5,$11,$ff,$41,$e5,$11,$ff,$41,$e5,$11,$fe,$3c,$fb,$00
-credits_piano__pulse2_measure12:
-    .BYT  $f8,$11,$ff,$37,$fa,$11,$ff,$37,$fa,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$38,$fa,$00
-credits_piano__pulse2_measure13:
-    .BYT  $d1,$11,$fd,$38,$e5,$11,$ff,$38,$e5,$11,$fe,$37,$fa,$00
-credits_piano__pulse2_measure14:
-    .BYT  $f3,$11,$fe,$40,$fa,$11,$ff,$43,$cb,$11,$fd,$41,$f3,$11,$ff,$43,$f3,$11,$ff,$41,$f9,$00
-credits_piano__pulse2_measure15:
-    .BYT  $ec,$11,$ff,$41,$e5,$11,$ff,$41,$e5,$11,$ff,$41,$e5,$11,$fe,$3c,$f9,$00
-credits_piano__pulse2_measure16:
-    .BYT  $fa,$11,$ff,$37,$fa,$11,$ff,$37,$fa,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$f7,$00
+    .BYT  $3c,$f3,$11,$ff,$37,$fa,$11,$ff,$37,$fa,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$37,$f3,$11,$ff,$00
 credits_piano__pulse1_data:
     .WORD credits_piano__pulse1_sequence
     .WORD credits_piano__pulse1_measure1
@@ -514,47 +454,26 @@ credits_piano__pulse1_data:
     .WORD credits_piano__pulse1_measure7
     .WORD credits_piano__pulse1_measure8
     .WORD credits_piano__pulse1_measure9
-    .WORD credits_piano__pulse1_measure10
-    .WORD credits_piano__pulse1_measure11
-    .WORD credits_piano__pulse1_measure12
-    .WORD credits_piano__pulse1_measure13
-    .WORD credits_piano__pulse1_measure14
-    .WORD credits_piano__pulse1_measure15
-    .WORD credits_piano__pulse1_measure16
 credits_piano__pulse1_sequence:
-    .BYT  $01,$02,$03,$04,$05,$06,$07,$08,$09,$0a,$0b,$0c,$0d,$0e,$0f,$10,$80,$00
+    .BYT  $01,$02,$03,$02,$04,$05,$04,$05,$06,$07,$08,$09,$06,$07,$08,$09,$80,$00
 credits_piano__pulse1_measure1:
-    .BYT  $20,$20,$0d,$45,$cb,$11,$e1,$45,$e5,$11,$fe,$00
+    .BYT  $20,$20,$0d,$45,$cb,$11,$e1,$45,$e6,$11,$fe,$00
 credits_piano__pulse1_measure2:
-    .BYT  $46,$ed,$11,$fe,$46,$fa,$11,$ff,$46,$cb,$11,$fd,$48,$f3,$11,$ff,$46,$f3,$11,$ff,$45,$ff,$00
+    .BYT  $46,$ed,$11,$fe,$46,$fa,$11,$ff,$46,$cb,$11,$fd,$48,$f3,$11,$ff,$46,$f3,$11,$ff,$00
 credits_piano__pulse1_measure3:
-    .BYT  $cc,$11,$e1,$45,$e5,$11,$fe,$46,$ff,$00
+    .BYT  $45,$cb,$11,$e1,$45,$e6,$11,$fe,$00
 credits_piano__pulse1_measure4:
-    .BYT  $ee,$11,$fe,$46,$fa,$11,$ff,$46,$cb,$11,$fd,$48,$f3,$11,$ff,$46,$f3,$11,$ff,$43,$fe,$00
+    .BYT  $43,$cb,$11,$fd,$44,$e6,$11,$fe,$46,$e6,$11,$fe,$00
 credits_piano__pulse1_measure5:
-    .BYT  $cd,$11,$fd,$44,$e5,$11,$ff,$46,$e5,$11,$fe,$44,$fe,$00
+    .BYT  $44,$e6,$11,$fe,$43,$e6,$11,$fe,$41,$e6,$11,$fe,$3f,$e6,$11,$fe,$00
 credits_piano__pulse1_measure6:
-    .BYT  $e8,$11,$fe,$43,$e6,$11,$fe,$41,$e6,$11,$fe,$3f,$e5,$11,$ff,$43,$fd,$00
+    .BYT  $41,$cb,$11,$fd,$40,$e6,$11,$fe,$41,$e6,$11,$fe,$00
 credits_piano__pulse1_measure7:
-    .BYT  $ce,$11,$fd,$44,$e5,$11,$ff,$46,$e5,$11,$fe,$44,$fd,$00
+    .BYT  $40,$ed,$11,$fe,$43,$fa,$11,$ff,$48,$cb,$11,$fd,$46,$f3,$11,$ff,$48,$f3,$11,$ff,$00
 credits_piano__pulse1_measure8:
-    .BYT  $e9,$11,$fe,$43,$e6,$11,$fe,$41,$e6,$11,$fe,$3f,$e5,$11,$ff,$41,$fc,$00
+    .BYT  $49,$e6,$11,$fe,$48,$e6,$11,$fe,$46,$e6,$11,$fe,$44,$e6,$11,$fe,$00
 credits_piano__pulse1_measure9:
-    .BYT  $cf,$11,$fd,$40,$e5,$11,$ff,$41,$e5,$11,$fe,$40,$fc,$00
-credits_piano__pulse1_measure10:
-    .BYT  $f1,$11,$fe,$43,$fa,$11,$ff,$48,$cb,$11,$fd,$46,$f3,$11,$ff,$48,$f3,$11,$ff,$49,$fb,$00
-credits_piano__pulse1_measure11:
-    .BYT  $ea,$11,$ff,$48,$e5,$11,$ff,$46,$e5,$11,$ff,$44,$e5,$11,$fe,$43,$fb,$00
-credits_piano__pulse1_measure12:
-    .BYT  $f8,$11,$ff,$3c,$fa,$11,$ff,$3c,$fa,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$41,$fa,$00
-credits_piano__pulse1_measure13:
-    .BYT  $d1,$11,$fd,$40,$e5,$11,$ff,$41,$e5,$11,$fe,$40,$fa,$00
-credits_piano__pulse1_measure14:
-    .BYT  $f3,$11,$fe,$43,$fa,$11,$ff,$48,$cb,$11,$fd,$46,$f3,$11,$ff,$48,$f3,$11,$ff,$49,$f9,$00
-credits_piano__pulse1_measure15:
-    .BYT  $ec,$11,$ff,$48,$e5,$11,$ff,$46,$e5,$11,$ff,$44,$e5,$11,$fe,$43,$f9,$00
-credits_piano__pulse1_measure16:
-    .BYT  $fa,$11,$ff,$3c,$fa,$11,$ff,$3c,$fa,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$f7,$00
+    .BYT  $43,$f3,$11,$ff,$3c,$fa,$11,$ff,$3c,$fa,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$3c,$f3,$11,$ff,$00
 credits_bass_guitar__triangle_data:
     .WORD credits_bass_guitar__triangle_sequence
     .WORD credits_bass_guitar__triangle_measure1
@@ -562,51 +481,18 @@ credits_bass_guitar__triangle_data:
     .WORD credits_bass_guitar__triangle_measure3
     .WORD credits_bass_guitar__triangle_measure4
     .WORD credits_bass_guitar__triangle_measure5
-    .WORD credits_bass_guitar__triangle_measure6
-    .WORD credits_bass_guitar__triangle_measure7
-    .WORD credits_bass_guitar__triangle_measure8
-    .WORD credits_bass_guitar__triangle_measure9
-    .WORD credits_bass_guitar__triangle_measure10
-    .WORD credits_bass_guitar__triangle_measure11
-    .WORD credits_bass_guitar__triangle_measure12
-    .WORD credits_bass_guitar__triangle_measure13
-    .WORD credits_bass_guitar__triangle_measure14
-    .WORD credits_bass_guitar__triangle_measure15
-    .WORD credits_bass_guitar__triangle_measure16
 credits_bass_guitar__triangle_sequence:
-    .BYT  $01,$02,$03,$04,$05,$06,$07,$08,$09,$0a,$0b,$0c,$0d,$0e,$0f,$10,$80,$00
+    .BYT  $01,$02,$02,$02,$03,$03,$03,$03,$04,$05,$04,$05,$04,$05,$04,$05,$80,$00
 credits_bass_guitar__triangle_measure1:
-    .BYT  $20,$08,$0d,$35,$e4,$35,$f7,$11,$ff,$35,$f7,$35,$f7,$35,$e4,$35,$e4,$11,$ff,$00
+    .BYT  $20,$08,$0d,$35,$e5,$11,$ff,$35,$f7,$35,$f7,$35,$f7,$11,$ff,$35,$e5,$11,$ff,$35,$e5,$11,$ff,$00
 credits_bass_guitar__triangle_measure2:
-    .BYT  $35,$e4,$35,$f7,$35,$f7,$35,$f6,$35,$e4,$35,$e4,$35,$ff,$00
+    .BYT  $35,$e5,$11,$ff,$35,$f7,$35,$f7,$35,$f7,$11,$ff,$35,$e5,$11,$ff,$35,$e5,$11,$ff,$00
 credits_bass_guitar__triangle_measure3:
-    .BYT  $e5,$35,$f7,$11,$ff,$35,$f7,$35,$f7,$35,$e4,$35,$e4,$11,$ff,$35,$ff,$00
+    .BYT  $33,$e5,$11,$ff,$33,$f7,$33,$f7,$33,$f7,$11,$ff,$33,$e5,$11,$ff,$33,$e5,$11,$ff,$00
 credits_bass_guitar__triangle_measure4:
-    .BYT  $e5,$35,$f7,$35,$f7,$35,$f6,$35,$e4,$35,$e4,$33,$fe,$00
+    .BYT  $31,$f3,$11,$ff,$38,$f3,$11,$ff,$31,$f3,$11,$ff,$38,$f3,$11,$ff,$31,$f3,$11,$ff,$38,$f3,$11,$ff,$31,$f3,$11,$ff,$38,$f3,$11,$ff,$00
 credits_bass_guitar__triangle_measure5:
-    .BYT  $e6,$33,$f7,$11,$ff,$33,$f7,$33,$f7,$33,$e4,$33,$e4,$11,$ff,$33,$fe,$00
-credits_bass_guitar__triangle_measure6:
-    .BYT  $e6,$33,$f7,$33,$f7,$33,$f6,$33,$e4,$33,$e4,$33,$fd,$00
-credits_bass_guitar__triangle_measure7:
-    .BYT  $e7,$33,$f7,$11,$ff,$33,$f7,$33,$f7,$33,$e4,$33,$e4,$11,$ff,$33,$fd,$00
-credits_bass_guitar__triangle_measure8:
-    .BYT  $e7,$33,$f7,$33,$f7,$33,$f6,$33,$e4,$33,$e4,$31,$fc,$00
-credits_bass_guitar__triangle_measure9:
-    .BYT  $f6,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$11,$ff,$30,$fc,$00
-credits_bass_guitar__triangle_measure10:
-    .BYT  $f6,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$31,$fb,$00
-credits_bass_guitar__triangle_measure11:
-    .BYT  $f7,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$11,$ff,$30,$fb,$00
-credits_bass_guitar__triangle_measure12:
-    .BYT  $f7,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$31,$fa,$00
-credits_bass_guitar__triangle_measure13:
-    .BYT  $f8,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$11,$ff,$30,$fa,$00
-credits_bass_guitar__triangle_measure14:
-    .BYT  $f8,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$31,$f9,$00
-credits_bass_guitar__triangle_measure15:
-    .BYT  $f9,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$31,$f2,$38,$f2,$11,$ff,$30,$f9,$00
-credits_bass_guitar__triangle_measure16:
-    .BYT  $f9,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$30,$f2,$37,$f2,$11,$f8,$00
+    .BYT  $30,$f3,$11,$ff,$37,$f3,$11,$ff,$30,$f3,$11,$ff,$37,$f3,$11,$ff,$30,$f3,$11,$ff,$37,$f3,$11,$ff,$30,$f3,$11,$ff,$37,$f3,$11,$ff,$00
 .export _cave_item_fanfare
 _cave_item_fanfare:
     .BYT 8, 0
