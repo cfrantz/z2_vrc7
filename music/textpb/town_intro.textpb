@@ -1,9 +1,9 @@
-bpm: 128
+bpm: 128.56995920046629
 time_signature {
   numerator: 4
   denominator: 4
 }
-frames_per_measure: 113
+frames_per_measure: 112
 tracks {
   name: "Piano, Pulse2"
   measures {
@@ -33,6 +33,13 @@ tracks {
       }
     }
     frames {
+      frame: 69
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 70
       note {
         kind: ON
@@ -41,7 +48,7 @@ tracks {
       }
     }
     frames {
-      frame: 110
+      frame: 109
       note {
         kind: OFF
         note: 67
@@ -109,7 +116,7 @@ tracks {
       }
     }
     frames {
-      frame: 112 
+      frame: 111 
       other {
         next_song: 0x02
       }
@@ -148,6 +155,13 @@ tracks {
       }
     }
     frames {
+      frame: 69
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
       frame: 70
       note {
         kind: ON
@@ -156,7 +170,7 @@ tracks {
       }
     }
     frames {
-      frame: 110
+      frame: 109
       note {
         kind: OFF
         note: 72
@@ -242,11 +256,25 @@ tracks {
       }
     }
     frames {
+      frame: 13
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 14
       note {
         kind: ON
         note: 38
         velocity: 64
+      }
+    }
+    frames {
+      frame: 27
+      note {
+        kind: OFF
+        note: 38
       }
     }
     frames {
@@ -258,11 +286,25 @@ tracks {
       }
     }
     frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 39
+      }
+    }
+    frames {
       frame: 42
       note {
         kind: ON
         note: 40
         velocity: 64
+      }
+    }
+    frames {
+      frame: 55
+      note {
+        kind: OFF
+        note: 40
       }
     }
     frames {
@@ -274,6 +316,13 @@ tracks {
       }
     }
     frames {
+      frame: 69
+      note {
+        kind: OFF
+        note: 50
+      }
+    }
+    frames {
       frame: 70
       note {
         kind: ON
@@ -282,7 +331,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 48
@@ -298,11 +347,25 @@ tracks {
       }
     }
     frames {
+      frame: 13
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
       frame: 14
       note {
         kind: ON
         note: 41
         velocity: 64
+      }
+    }
+    frames {
+      frame: 27
+      note {
+        kind: OFF
+        note: 41
       }
     }
     frames {
@@ -314,11 +377,25 @@ tracks {
       }
     }
     frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 45
+      }
+    }
+    frames {
       frame: 42
       note {
         kind: ON
         note: 43
         velocity: 64
+      }
+    }
+    frames {
+      frame: 69
+      note {
+        kind: OFF
+        note: 43
       }
     }
     frames {
@@ -330,6 +407,13 @@ tracks {
       }
     }
     frames {
+      frame: 83
+      note {
+        kind: OFF
+        note: 47
+      }
+    }
+    frames {
       frame: 84
       note {
         kind: ON
@@ -338,7 +422,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 50

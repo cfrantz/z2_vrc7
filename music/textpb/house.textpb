@@ -1,9 +1,9 @@
-bpm: 128
+bpm: 128.56995920046629
 time_signature {
   numerator: 4
   denominator: 4
 }
-frames_per_measure: 113
+frames_per_measure: 112
 tracks {
   name: "Piano, Pulse2"
   measures {
@@ -78,11 +78,25 @@ tracks {
       }
     }
     frames {
+      frame: 69
+      note {
+        kind: OFF
+        note: 59
+      }
+    }
+    frames {
       frame: 70
       note {
         kind: ON
         note: 62
         velocity: 64
+      }
+    }
+    frames {
+      frame: 83
+      note {
+        kind: OFF
+        note: 62
       }
     }
     frames {
@@ -94,6 +108,13 @@ tracks {
       }
     }
     frames {
+      frame: 97
+      note {
+        kind: OFF
+        note: 55
+      }
+    }
+    frames {
       frame: 98
       note {
         kind: ON
@@ -102,7 +123,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 59
@@ -229,70 +250,69 @@ tracks {
         note: 60
       }
     }
+  }
+  measures {
     frames {
-      frame: 112
       note {
         kind: ON
         note: 55
         velocity: 64
-      }
-    }
-  }
-  measures {
-    frames {
-      frame: 12
-      note {
-        kind: OFF
-        note: 55
       }
     }
     frames {
       frame: 13
       note {
-        kind: ON
-        note: 59
-        velocity: 64
+        kind: OFF
+        note: 55
       }
     }
     frames {
-      frame: 26
+      frame: 14
       note {
-        kind: OFF
+        kind: ON
         note: 59
+        velocity: 64
       }
     }
     frames {
       frame: 27
       note {
-        kind: ON
-        note: 62
-        velocity: 64
+        kind: OFF
+        note: 59
       }
     }
     frames {
-      frame: 40
+      frame: 28
       note {
-        kind: OFF
+        kind: ON
         note: 62
+        velocity: 64
       }
     }
     frames {
       frame: 41
       note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 42
+      note {
         kind: ON
         note: 55
         velocity: 64
       }
     }
     frames {
-      frame: 54
+      frame: 55
       note {
         kind: OFF
         note: 55
       }
     }
     frames {
-      frame: 55
+      frame: 56
       note {
         kind: ON
         note: 59
@@ -302,6 +322,13 @@ tracks {
     frames {
       frame: 69
       note {
+        kind: OFF
+        note: 59
+      }
+    }
+    frames {
+      frame: 70
+      note {
         kind: ON
         note: 62
         velocity: 64
@@ -310,6 +337,13 @@ tracks {
     frames {
       frame: 83
       note {
+        kind: OFF
+        note: 62
+      }
+    }
+    frames {
+      frame: 84
+      note {
         kind: ON
         note: 55
         velocity: 64
@@ -317,6 +351,13 @@ tracks {
     }
     frames {
       frame: 97
+      note {
+        kind: OFF
+        note: 55
+      }
+    }
+    frames {
+      frame: 98
       note {
         kind: ON
         note: 59
@@ -330,134 +371,12 @@ tracks {
         note: 59
       }
     }
-    frames {
-      frame: 112
-      note {
-        kind: ON
-        note: 57
-        velocity: 64
-      }
-    }
-  }
-  measures {
-    frames {
-      frame: 12
-      note {
-        kind: OFF
-        note: 57
-      }
-    }
-    frames {
-      frame: 13
-      note {
-        kind: ON
-        note: 60
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 26
-      note {
-        kind: OFF
-        note: 60
-      }
-    }
-    frames {
-      frame: 27
-      note {
-        kind: ON
-        note: 65
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 40
-      note {
-        kind: OFF
-        note: 65
-      }
-    }
-    frames {
-      frame: 41
-      note {
-        kind: ON
-        note: 57
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 54
-      note {
-        kind: OFF
-        note: 57
-      }
-    }
-    frames {
-      frame: 55
-      note {
-        kind: ON
-        note: 60
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 68
-      note {
-        kind: OFF
-        note: 60
-      }
-    }
-    frames {
-      frame: 69
-      note {
-        kind: ON
-        note: 65
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 82
-      note {
-        kind: OFF
-        note: 65
-      }
-    }
-    frames {
-      frame: 83
-      note {
-        kind: ON
-        note: 57
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 96
-      note {
-        kind: OFF
-        note: 57
-      }
-    }
-    frames {
-      frame: 97
-      note {
-        kind: ON
-        note: 60
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 110
-      note {
-        kind: OFF
-        note: 60
-      }
-    }
   }
   sequence: 0
   sequence: 1
   sequence: 2
-  sequence: 3
-  sequence: 0x80 # Loop back to the beginning of the sequence
+  sequence: 1
+  sequence: 0x80
 }
 tracks {
   name: "Piano, Pulse1"
@@ -489,7 +408,7 @@ tracks {
       }
     }
     frames {
-      frame: 97
+      frame: 96
       note {
         kind: OFF
         note: 72
@@ -504,7 +423,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 74
@@ -535,7 +454,7 @@ tracks {
       }
     }
     frames {
-      frame: 76
+      frame: 75
       note {
         kind: OFF
         note: 76
@@ -550,7 +469,7 @@ tracks {
       }
     }
     frames {
-      frame: 97
+      frame: 96
       note {
         kind: OFF
         note: 77
@@ -571,25 +490,24 @@ tracks {
         note: 76
       }
     }
+  }
+  measures {
     frames {
-      frame: 112
       note {
         kind: ON
         note: 74
         velocity: 64
       }
     }
-  }
-  measures {
     frames {
-      frame: 52
+      frame: 53
       note {
         kind: OFF
         note: 74
       }
     }
     frames {
-      frame: 69
+      frame: 70
       note {
         kind: ON
         note: 71
@@ -604,7 +522,7 @@ tracks {
       }
     }
     frames {
-      frame: 97
+      frame: 98
       note {
         kind: ON
         note: 67
@@ -618,25 +536,24 @@ tracks {
         note: 67
       }
     }
+  }
+  measures {
     frames {
-      frame: 112
       note {
         kind: ON
         note: 69
         velocity: 64
       }
     }
-  }
-  measures {
     frames {
-      frame: 18
+      frame: 19
       note {
         kind: OFF
         note: 69
       }
     }
     frames {
-      frame: 20
+      frame: 21
       note {
         kind: ON
         note: 71
@@ -651,7 +568,7 @@ tracks {
       }
     }
     frames {
-      frame: 41
+      frame: 42
       note {
         kind: ON
         note: 72
@@ -659,14 +576,14 @@ tracks {
       }
     }
     frames {
-      frame: 54
+      frame: 55
       note {
         kind: OFF
         note: 72
       }
     }
     frames {
-      frame: 55
+      frame: 56
       note {
         kind: ON
         note: 76
@@ -681,7 +598,7 @@ tracks {
       }
     }
     frames {
-      frame: 76
+      frame: 77
       note {
         kind: ON
         note: 74
@@ -696,7 +613,7 @@ tracks {
       }
     }
     frames {
-      frame: 97
+      frame: 98
       note {
         kind: ON
         note: 72
@@ -704,7 +621,7 @@ tracks {
       }
     }
     frames {
-      frame: 110
+      frame: 111
       note {
         kind: OFF
         note: 72
@@ -715,7 +632,7 @@ tracks {
   sequence: 1
   sequence: 2
   sequence: 3
-  sequence: 0x80 # Loop back to the beginning of the sequence
+  sequence: 0x80
 }
 tracks {
   name: "Bass Guitar, Triangle"
@@ -730,73 +647,16 @@ tracks {
       other {
         program_change: 34
       }
-      other {
-        program_change: 36
-      }
-      other {
-        program_change: 37
-      }
     }
     frames {
-      frame: 42
-      note {
-        kind: ON
-        note: 38
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 84
-      note {
-        kind: ON
-        note: 43
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 112
+      frame: 41
       note {
         kind: OFF
         note: 43
       }
     }
-  }
-  measures {
-    frames {
-      note {
-        kind: ON
-        note: 41
-        velocity: 64
-      }
-    }
     frames {
       frame: 42
-      note {
-        kind: ON
-        note: 36
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 84
-      note {
-        kind: ON
-        note: 41
-        velocity: 64
-      }
-    }
-    frames {
-      frame: 112
-      note {
-        kind: ON
-        note: 43
-        velocity: 64
-      }
-    }
-  }
-  measures {
-    frames {
-      frame: 41
       note {
         kind: ON
         note: 38
@@ -805,6 +665,13 @@ tracks {
     }
     frames {
       frame: 83
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
+      frame: 84
       note {
         kind: ON
         note: 43
@@ -818,18 +685,24 @@ tracks {
         note: 43
       }
     }
+  }
+  measures {
     frames {
-      frame: 112
       note {
         kind: ON
         note: 41
         velocity: 64
       }
     }
-  }
-  measures {
     frames {
       frame: 41
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
+      frame: 42
       note {
         kind: ON
         note: 36
@@ -838,6 +711,13 @@ tracks {
     }
     frames {
       frame: 83
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
+      frame: 84
       note {
         kind: ON
         note: 41
@@ -849,13 +729,59 @@ tracks {
       note {
         kind: OFF
         note: 41
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 41
+      note {
+        kind: OFF
+        note: 43
+      }
+    }
+    frames {
+      frame: 42
+      note {
+        kind: ON
+        note: 38
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 83
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
+      frame: 84
+      note {
+        kind: ON
+        note: 43
+        velocity: 64
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 43
       }
     }
   }
   sequence: 0
   sequence: 1
   sequence: 2
-  sequence: 3
-  sequence: 0x80 # Loop back to the beginning of the sequence
+  sequence: 1
+  sequence: 0x80
 }
 
