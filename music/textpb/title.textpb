@@ -17,17 +17,17 @@ tracks {
   }
   measures {
     frames {
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
       other {
         title_screen_hack: 2
       }
-      note {
-        kind: ON
-        note: 72
-        velocity: 96
-      }
     }
     frames {
-      frame: 76
+      frame: 75
       note {
         kind: OFF
         note: 72
@@ -73,7 +73,7 @@ tracks {
       }
     }
     frames {
-      frame: 122
+      frame: 121
       note {
         kind: OFF
         note: 70
@@ -89,7 +89,7 @@ tracks {
       }
     }
     frames {
-      frame: 76
+      frame: 75
       note {
         kind: OFF
         note: 68
@@ -135,7 +135,7 @@ tracks {
       }
     }
     frames {
-      frame: 122
+      frame: 121
       note {
         kind: OFF
         note: 67
@@ -151,7 +151,53 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 75
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 69
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 110
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 112
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 45
       note {
         kind: OFF
         note: 72
@@ -166,7 +212,7 @@ tracks {
       }
     }
     frames {
-      frame: 94
+      frame: 93
       note {
         kind: OFF
         note: 67
@@ -190,17 +236,17 @@ tracks {
   }
   measures {
     frames {
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
       other {
         title_screen_hack: 4
       }
-      note {
-        kind: ON
-        note: 72
-        velocity: 96
-      }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 72
@@ -230,7 +276,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 72
@@ -246,7 +292,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 73
@@ -276,7 +322,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 73
@@ -292,7 +338,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 74
@@ -322,7 +368,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 74
@@ -338,7 +384,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 75
@@ -353,7 +399,7 @@ tracks {
       }
     }
     frames {
-      frame: 124
+      frame: 123
       note {
         kind: OFF
         note: 76
@@ -362,9 +408,70 @@ tracks {
   }
   measures {
     frames {
+      note {
+        kind: ON
+        note: 69
+        velocity: 96
+      }
       other {
         title_screen_hack: 8
       }
+    }
+    frames {
+      frame: 30
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 69
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 62
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 70
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 125
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+  }
+  measures {
+    frames {
       note {
         kind: ON
         note: 69
@@ -417,7 +524,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 72
@@ -502,13 +609,20 @@ tracks {
   }
   measures {
     frames {
+      note {
+        kind: ON
+        note: 73
+        velocity: 80
+      }
       other {
         title_screen_hack: 16
       }
+    }
+    frames {
+      frame: 7
       note {
-        kind: ON
+        kind: OFF
         note: 73
-        velocity: 80
       }
     }
     frames {
@@ -520,11 +634,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -536,11 +664,25 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
         note: 73
         velocity: 80
+      }
+    }
+    frames {
+      frame: 39
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -552,11 +694,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 55
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -568,11 +724,25 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
         note: 73
         velocity: 80
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -584,11 +754,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 87
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -600,11 +784,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 73
         velocity: 80
+      }
+    }
+    frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -616,6 +814,13 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
@@ -624,11 +829,25 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
         note: 61
         velocity: 80
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 61
       }
     }
   }
@@ -641,11 +860,25 @@ tracks {
       }
     }
     frames {
+      frame: 7
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 8
       note {
         kind: ON
         note: 67
         velocity: 80
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 67
       }
     }
     frames {
@@ -657,11 +890,25 @@ tracks {
       }
     }
     frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 64
+      }
+    }
+    frames {
       frame: 24
       note {
         kind: ON
         note: 60
         velocity: 80
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -673,11 +920,25 @@ tracks {
       }
     }
     frames {
+      frame: 39
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 40
       note {
         kind: ON
         note: 67
         velocity: 80
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 67
       }
     }
     frames {
@@ -689,11 +950,25 @@ tracks {
       }
     }
     frames {
+      frame: 55
+      note {
+        kind: OFF
+        note: 64
+      }
+    }
+    frames {
       frame: 56
       note {
         kind: ON
         note: 60
         velocity: 80
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -705,11 +980,25 @@ tracks {
       }
     }
     frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 72
       note {
         kind: ON
         note: 67
         velocity: 80
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 67
       }
     }
     frames {
@@ -721,11 +1010,25 @@ tracks {
       }
     }
     frames {
+      frame: 87
+      note {
+        kind: OFF
+        note: 64
+      }
+    }
+    frames {
       frame: 88
       note {
         kind: ON
         note: 60
         velocity: 80
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -737,11 +1040,25 @@ tracks {
       }
     }
     frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 104
       note {
         kind: ON
         note: 67
         velocity: 80
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 67
       }
     }
     frames {
@@ -753,6 +1070,13 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 64
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
@@ -760,48 +1084,362 @@ tracks {
         velocity: 80
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 60
       }
     }
   }
-  sequence: 0   # Measure 1
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 73
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 7
+      note {
+        kind: OFF
+        note: 73
+      }
+    }
+    frames {
+      frame: 8
+      note {
+        kind: ON
+        note: 68
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
+      frame: 16
+      note {
+        kind: ON
+        note: 65
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 24
+      note {
+        kind: ON
+        note: 61
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
+      frame: 32
+      note {
+        kind: ON
+        note: 73
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 39
+      note {
+        kind: OFF
+        note: 73
+      }
+    }
+    frames {
+      frame: 40
+      note {
+        kind: ON
+        note: 68
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 65
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 55
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 56
+      note {
+        kind: ON
+        note: 61
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
+      frame: 64
+      note {
+        kind: ON
+        note: 73
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 73
+      }
+    }
+    frames {
+      frame: 72
+      note {
+        kind: ON
+        note: 68
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 65
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 87
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 88
+      note {
+        kind: ON
+        note: 61
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
+      frame: 96
+      note {
+        kind: ON
+        note: 73
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 73
+      }
+    }
+    frames {
+      frame: 104
+      note {
+        kind: ON
+        note: 68
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
+      frame: 112
+      note {
+        kind: ON
+        note: 65
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
+      frame: 120
+      note {
+        kind: ON
+        note: 61
+        velocity: 80
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+  }
+  measures {
+    frames {
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 45
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 48
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 78
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
+      frame: 80
+      note {
+        kind: ON
+        note: 72
+        velocity: 96
+      }
+    }
+    frames {
+      frame: 125
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+  }
+  sequence: 0
   sequence: 1
   sequence: 1
   sequence: 1
-  sequence: 2   # Measure 5
-  sequence: 3
-  sequence: 4
-  sequence: 5
   sequence: 2
   sequence: 3
   sequence: 4
+  sequence: 5
   sequence: 6
-  sequence: 7   # Measure 13
+  sequence: 3
+  sequence: 4
+  sequence: 7
   sequence: 8
   sequence: 9
   sequence: 10
-  sequence: 11  # Measure 17
   sequence: 11
   sequence: 12
-  sequence: 11
-  sequence: 11
-  sequence: 11
-  sequence: 12
-  sequence: 11
-  sequence: 13  # Measure 25
-  sequence: 14
   sequence: 13
   sequence: 14
   sequence: 13
-  sequence: 14
+  sequence: 13
   sequence: 13
   sequence: 14
-  sequence: 0x84 # Loop back to sequence index 4
+  sequence: 13
+  sequence: 15
+  sequence: 16
+  sequence: 17
+  sequence: 16
+  sequence: 17
+  sequence: 16
+  sequence: 17
+  sequence: 16
+  sequence: 6
+  sequence: 3
+  sequence: 4
+  sequence: 5
+  sequence: 6
+  sequence: 3
+  sequence: 4
+  sequence: 7
+  sequence: 18
+  sequence: 9
+  sequence: 10
+  sequence: 11
+  sequence: 13
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 13
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 17
+  sequence: 16
+  sequence: 17
+  sequence: 16
+  sequence: 17
+  sequence: 16
+  sequence: 17
+  sequence: 16
+  sequence: 132
 }
 tracks {
   name: "Piano 2"
@@ -824,7 +1462,7 @@ tracks {
       }
     }
     frames {
-      frame: 76
+      frame: 75
       note {
         kind: OFF
         note: 69
@@ -870,7 +1508,7 @@ tracks {
       }
     }
     frames {
-      frame: 122
+      frame: 121
       note {
         kind: OFF
         note: 67
@@ -886,7 +1524,7 @@ tracks {
       }
     }
     frames {
-      frame: 76
+      frame: 75
       note {
         kind: OFF
         note: 65
@@ -932,7 +1570,7 @@ tracks {
       }
     }
     frames {
-      frame: 122
+      frame: 121
       note {
         kind: OFF
         note: 63
@@ -948,7 +1586,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 67
@@ -963,7 +1601,7 @@ tracks {
       }
     }
     frames {
-      frame: 94
+      frame: 93
       note {
         kind: OFF
         note: 63
@@ -994,7 +1632,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 65
@@ -1024,7 +1662,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 65
@@ -1040,7 +1678,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 66
@@ -1070,7 +1708,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 66
@@ -1086,7 +1724,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 67
@@ -1116,7 +1754,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 67
@@ -1132,7 +1770,7 @@ tracks {
       }
     }
     frames {
-      frame: 46
+      frame: 45
       note {
         kind: OFF
         note: 68
@@ -1147,7 +1785,7 @@ tracks {
       }
     }
     frames {
-      frame: 124
+      frame: 123
       note {
         kind: OFF
         note: 67
@@ -1208,7 +1846,7 @@ tracks {
       }
     }
     frames {
-      frame: 126
+      frame: 125
       note {
         kind: OFF
         note: 69
@@ -1300,11 +1938,25 @@ tracks {
       }
     }
     frames {
+      frame: 7
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 8
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -1316,11 +1968,25 @@ tracks {
       }
     }
     frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 24
       note {
         kind: ON
         note: 56
         velocity: 80
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 56
       }
     }
     frames {
@@ -1332,11 +1998,25 @@ tracks {
       }
     }
     frames {
+      frame: 39
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 40
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -1348,11 +2028,25 @@ tracks {
       }
     }
     frames {
+      frame: 55
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 56
       note {
         kind: ON
         note: 56
         velocity: 80
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 56
       }
     }
     frames {
@@ -1364,11 +2058,25 @@ tracks {
       }
     }
     frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 72
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -1380,11 +2088,25 @@ tracks {
       }
     }
     frames {
+      frame: 87
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 88
       note {
         kind: ON
         note: 56
         velocity: 80
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 56
       }
     }
     frames {
@@ -1396,11 +2118,25 @@ tracks {
       }
     }
     frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 68
+      }
+    }
+    frames {
       frame: 104
       note {
         kind: ON
         note: 65
         velocity: 80
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -1412,11 +2148,25 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 61
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
         note: 56
         velocity: 80
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 56
       }
     }
   }
@@ -1429,11 +2179,25 @@ tracks {
       }
     }
     frames {
+      frame: 7
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 8
       note {
         kind: ON
         note: 64
         velocity: 80
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 64
       }
     }
     frames {
@@ -1445,11 +2209,25 @@ tracks {
       }
     }
     frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
       frame: 24
       note {
         kind: ON
         note: 55
         velocity: 80
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 55
       }
     }
     frames {
@@ -1461,11 +2239,25 @@ tracks {
       }
     }
     frames {
+      frame: 39
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 40
       note {
         kind: ON
         note: 64
         velocity: 80
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 64
       }
     }
     frames {
@@ -1477,11 +2269,25 @@ tracks {
       }
     }
     frames {
+      frame: 55
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
       frame: 56
       note {
         kind: ON
         note: 55
         velocity: 80
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 55
       }
     }
     frames {
@@ -1493,11 +2299,25 @@ tracks {
       }
     }
     frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 72
       note {
         kind: ON
         note: 64
         velocity: 80
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 64
       }
     }
     frames {
@@ -1509,11 +2329,25 @@ tracks {
       }
     }
     frames {
+      frame: 87
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
       frame: 88
       note {
         kind: ON
         note: 55
         velocity: 80
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 55
       }
     }
     frames {
@@ -1525,11 +2359,25 @@ tracks {
       }
     }
     frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 104
       note {
         kind: ON
         note: 64
         velocity: 80
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 64
       }
     }
     frames {
@@ -1541,6 +2389,13 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
@@ -1548,9 +2403,8 @@ tracks {
         velocity: 80
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 55
@@ -1589,13 +2443,47 @@ tracks {
   sequence: 14
   sequence: 13
   sequence: 14
-  sequence: 0x84 # Loop back to sequence index 4
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 5
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 6
+  sequence: 7
+  sequence: 8
+  sequence: 9
+  sequence: 10
+  sequence: 11
+  sequence: 11
+  sequence: 12
+  sequence: 11
+  sequence: 11
+  sequence: 11
+  sequence: 12
+  sequence: 11
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 14
+  sequence: 13
+  sequence: 14
+  sequence: 132
 }
 tracks {
   name: "Bass Guitar"
   number: 2
   measures {
     frames {
+      other {
+        program_change: 34
+      }
+      other {
+        program_change: 34
+      }
       other {
         program_change: 34
       }
@@ -1612,6 +2500,13 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
@@ -1620,11 +2515,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 41
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 41
       }
     }
   }
@@ -1637,11 +2546,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 39
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 36
       }
     }
   }
@@ -1654,6 +2577,13 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 37
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
@@ -1662,11 +2592,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 44
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 44
       }
     }
   }
@@ -1679,11 +2623,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 43
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 39
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 39
       }
     }
     frames {
@@ -1694,6 +2652,13 @@ tracks {
         velocity: 96
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
   }
   measures {
     frames {
@@ -1701,6 +2666,13 @@ tracks {
         kind: ON
         note: 41
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 41
       }
     }
     frames {
@@ -1712,11 +2684,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 41
         velocity: 96
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 41
       }
     }
     frames {
@@ -1727,6 +2713,13 @@ tracks {
         velocity: 96
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
   }
   measures {
     frames {
@@ -1734,6 +2727,13 @@ tracks {
         kind: ON
         note: 41
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 41
       }
     }
     frames {
@@ -1745,11 +2745,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -1761,11 +2775,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 40
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 43
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 43
       }
     }
   }
@@ -1778,6 +2806,13 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
@@ -1786,11 +2821,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 39
         velocity: 96
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 39
       }
     }
     frames {
@@ -1802,11 +2851,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 36
       }
     }
   }
@@ -1819,11 +2882,25 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 43
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
         note: 39
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 39
       }
     }
     frames {
@@ -1835,6 +2912,13 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 34
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
@@ -1843,11 +2927,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 39
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 43
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 43
       }
     }
   }
@@ -1860,11 +2958,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 37
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 37
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 37
       }
     }
     frames {
@@ -1876,11 +2988,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 37
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 37
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 37
       }
     }
     frames {
@@ -1892,6 +3018,13 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
@@ -1900,6 +3033,13 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 41
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
@@ -1908,11 +3048,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 44
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 44
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 44
       }
     }
   }
@@ -1925,11 +3079,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -1941,11 +3109,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 40
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 40
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 40
       }
     }
     frames {
@@ -1957,11 +3139,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 43
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 43
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 43
       }
     }
     frames {
@@ -1973,11 +3169,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 40
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 40
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 40
       }
     }
   }
@@ -1990,11 +3200,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2006,11 +3230,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 40
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 40
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 40
       }
     }
     frames {
@@ -2022,11 +3260,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 43
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 43
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 43
       }
     }
     frames {
@@ -2037,9 +3289,8 @@ tracks {
         velocity: 96
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 46
@@ -2078,7 +3329,35 @@ tracks {
   sequence: 11
   sequence: 10
   sequence: 12
-  sequence: 0x84 # Loop back to sequence index 4
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 5
+  sequence: 2
+  sequence: 3
+  sequence: 4
+  sequence: 5
+  sequence: 6
+  sequence: 6
+  sequence: 6
+  sequence: 7
+  sequence: 8
+  sequence: 8
+  sequence: 9
+  sequence: 8
+  sequence: 8
+  sequence: 8
+  sequence: 9
+  sequence: 8
+  sequence: 10
+  sequence: 11
+  sequence: 10
+  sequence: 12
+  sequence: 10
+  sequence: 11
+  sequence: 10
+  sequence: 12
+  sequence: 132
 }
 tracks {
   name: "Drumset"
@@ -2101,6 +3380,13 @@ tracks {
         velocity: 80
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 57
+      }
+    }
   }
   measures {
     frames {
@@ -2110,20 +3396,28 @@ tracks {
         velocity: 96
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 57
       }
     }
+  }
+  measures {
     frames {
       frame: 64
       note {
         kind: ON
         note: 57
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 57
       }
     }
   }
@@ -2133,6 +3427,13 @@ tracks {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2144,6 +3445,13 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
@@ -2152,11 +3460,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2167,6 +3489,13 @@ tracks {
         velocity: 96
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
   }
   measures {
     frames {
@@ -2174,6 +3503,13 @@ tracks {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2185,6 +3521,13 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
@@ -2193,11 +3536,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2209,11 +3566,25 @@ tracks {
       }
     }
     frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 50
+      }
+    }
+    frames {
       frame: 104
       note {
         kind: ON
         note: 48
         velocity: 96
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 48
       }
     }
     frames {
@@ -2225,6 +3596,13 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 47
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
@@ -2232,6 +3610,13 @@ tracks {
         velocity: 96
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 45
+      }
+    }
   }
   measures {
     frames {
@@ -2239,6 +3624,13 @@ tracks {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2250,7 +3642,7 @@ tracks {
       }
     }
     frames {
-      frame: 48
+      frame: 47
       note {
         kind: OFF
         note: 38
@@ -2265,11 +3657,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 36
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
       }
     }
     frames {
@@ -2281,7 +3687,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 38
@@ -2297,6 +3703,13 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
@@ -2305,7 +3718,7 @@ tracks {
       }
     }
     frames {
-      frame: 48
+      frame: 47
       note {
         kind: OFF
         note: 38
@@ -2320,6 +3733,13 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
@@ -2328,11 +3748,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 38
         velocity: 96
+      }
+    }
+    frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 38
       }
     }
     frames {
@@ -2344,6 +3778,13 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
@@ -2352,11 +3793,25 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 38
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
         note: 38
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 38
       }
     }
   }
@@ -2369,6 +3824,13 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 57
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
@@ -2377,7 +3839,7 @@ tracks {
       }
     }
     frames {
-      frame: 48
+      frame: 47
       note {
         kind: OFF
         note: 38
@@ -2392,6 +3854,13 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
@@ -2400,7 +3869,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 38
@@ -2416,6 +3885,13 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
@@ -2424,7 +3900,7 @@ tracks {
       }
     }
     frames {
-      frame: 48
+      frame: 47
       note {
         kind: OFF
         note: 38
@@ -2439,6 +3915,13 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 36
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
@@ -2447,7 +3930,7 @@ tracks {
       }
     }
     frames {
-      frame: 112
+      frame: 111
       note {
         kind: OFF
         note: 38
@@ -2486,13 +3969,47 @@ tracks {
   sequence: 10
   sequence: 10
   sequence: 10
-  sequence: 0x84 # Loop back to sequence index 4
+  sequence: 3
+  sequence: 4
+  sequence: 3
+  sequence: 4
+  sequence: 3
+  sequence: 4
+  sequence: 3
+  sequence: 4
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 6
+  sequence: 7
+  sequence: 7
+  sequence: 7
+  sequence: 8
+  sequence: 7
+  sequence: 7
+  sequence: 7
+  sequence: 8
+  sequence: 9
+  sequence: 10
+  sequence: 10
+  sequence: 10
+  sequence: 9
+  sequence: 10
+  sequence: 10
+  sequence: 10
+  sequence: 132
 }
 tracks {
   name: "Violin"
   number: 4
   measures {
     frames {
+      other {
+        program_change: 53
+      }
+      other {
+        program_change: 53
+      }
       other {
         program_change: 53
       }
@@ -2510,11 +4027,25 @@ tracks {
       }
     }
     frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 72
       note {
         kind: ON
         note: 75
         velocity: 64
+      }
+    }
+    frames {
+      frame: 75
+      note {
+        kind: OFF
+        note: 75
       }
     }
     frames {
@@ -2526,11 +4057,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 67
         velocity: 64
+      }
+    }
+    frames {
+      frame: 83
+      note {
+        kind: OFF
+        note: 67
       }
     }
     frames {
@@ -2542,11 +4087,25 @@ tracks {
       }
     }
     frames {
+      frame: 87
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
       frame: 88
       note {
         kind: ON
         note: 72
         velocity: 64
+      }
+    }
+    frames {
+      frame: 91
+      note {
+        kind: OFF
+        note: 72
       }
     }
     frames {
@@ -2558,11 +4117,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 75
         velocity: 64
+      }
+    }
+    frames {
+      frame: 99
+      note {
+        kind: OFF
+        note: 75
       }
     }
     frames {
@@ -2574,11 +4147,25 @@ tracks {
       }
     }
     frames {
+      frame: 103
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 104
       note {
         kind: ON
         note: 67
         velocity: 64
+      }
+    }
+    frames {
+      frame: 107
+      note {
+        kind: OFF
+        note: 67
       }
     }
     frames {
@@ -2590,11 +4177,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 72
         velocity: 64
+      }
+    }
+    frames {
+      frame: 115
+      note {
+        kind: OFF
+        note: 72
       }
     }
     frames {
@@ -2606,11 +4207,25 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 67
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: ON
         note: 75
         velocity: 64
+      }
+    }
+    frames {
+      frame: 123
+      note {
+        kind: OFF
+        note: 75
       }
     }
     frames {
@@ -2621,9 +4236,8 @@ tracks {
         velocity: 64
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 72
@@ -2639,11 +4253,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 65
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -2655,11 +4283,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 72
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 72
       }
     }
     frames {
@@ -2671,11 +4313,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 65
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -2687,11 +4343,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 72
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 72
       }
     }
   }
@@ -2704,11 +4374,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 65
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -2720,11 +4404,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 73
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -2736,11 +4434,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 65
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -2752,11 +4464,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 73
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 73
       }
     }
   }
@@ -2769,6 +4495,13 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
@@ -2777,11 +4510,25 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
         note: 71
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 71
       }
     }
     frames {
@@ -2793,11 +4540,25 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
         note: 77
         velocity: 96
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 77
       }
     }
     frames {
@@ -2809,6 +4570,13 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
@@ -2817,11 +4585,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 71
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 74
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 74
       }
     }
   }
@@ -2834,6 +4616,13 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
@@ -2842,11 +4631,25 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
         note: 69
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -2868,16 +4671,16 @@ tracks {
     frames {
       frame: 50
       note {
-        kind: OFF
-        note: 66
+        kind: ON
+        note: 67
+        velocity: 96
       }
     }
     frames {
       frame: 51
       note {
-        kind: ON
+        kind: OFF
         note: 67
-        velocity: 96
       }
     }
     frames {
@@ -2899,16 +4702,16 @@ tracks {
     frames {
       frame: 54
       note {
-        kind: OFF
-        note: 69
+        kind: ON
+        note: 70
+        velocity: 96
       }
     }
     frames {
       frame: 55
       note {
-        kind: ON
+        kind: OFF
         note: 70
-        velocity: 96
       }
     }
     frames {
@@ -2930,16 +4733,16 @@ tracks {
     frames {
       frame: 58
       note {
-        kind: OFF
-        note: 72
+        kind: ON
+        note: 73
+        velocity: 96
       }
     }
     frames {
       frame: 59
       note {
-        kind: ON
+        kind: OFF
         note: 73
-        velocity: 96
       }
     }
     frames {
@@ -2961,16 +4764,16 @@ tracks {
     frames {
       frame: 62
       note {
-        kind: OFF
-        note: 75
+        kind: ON
+        note: 76
+        velocity: 96
       }
     }
     frames {
       frame: 63
       note {
-        kind: ON
+        kind: OFF
         note: 76
-        velocity: 96
       }
     }
     frames {
@@ -2981,20 +4784,28 @@ tracks {
         velocity: 96
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 77
       }
     }
+  }
+  measures {
     frames {
       frame: 32
       note {
         kind: ON
         note: 82
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 82
       }
     }
     frames {
@@ -3006,11 +4817,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 81
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 77
         velocity: 96
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 77
       }
     }
     frames {
@@ -3024,11 +4849,25 @@ tracks {
   }
   measures {
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 72
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 69
         velocity: 96
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3040,11 +4879,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 72
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 72
       }
     }
   }
@@ -3054,6 +4907,13 @@ tracks {
         kind: ON
         note: 75
         velocity: 96
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 75
       }
     }
     frames {
@@ -3065,11 +4925,25 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 74
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
         note: 72
         velocity: 96
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 72
       }
     }
     frames {
@@ -3080,6 +4954,13 @@ tracks {
         velocity: 96
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
   }
   measures {
     frames {
@@ -3087,6 +4968,13 @@ tracks {
         kind: ON
         note: 72
         velocity: 96
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 72
       }
     }
     frames {
@@ -3098,6 +4986,13 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
@@ -3105,60 +5000,28 @@ tracks {
         velocity: 96
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 69
       }
     }
-    frames {
-      frame: 32
-      note {
-        kind: ON
-        note: 82
-        velocity: 96
-      }
-    }
-    frames {
-      frame: 64
-      note {
-        kind: ON
-        note: 81
-        velocity: 96
-      }
-    }
-    frames {
-      frame: 80
-      note {
-        kind: ON
-        note: 77
-        velocity: 96
-      }
-    }
-    frames {
-      frame: 112
-      note {
-        kind: ON
-        note: 72
-        velocity: 96
-      }
-    }
   }
   measures {
-    frames {
-      note {
-        kind: OFF
-        note: 69
-      }
-    }
     frames {
       frame: 32
       note {
         kind: ON
         note: 73
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -3170,11 +5033,25 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
         note: 77
         velocity: 96
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 77
       }
     }
     frames {
@@ -3186,11 +5063,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 80
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 80
         velocity: 96
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 80
       }
     }
   }
@@ -3200,6 +5091,13 @@ tracks {
         kind: ON
         note: 79
         velocity: 96
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 79
       }
     }
     frames {
@@ -3211,11 +5109,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 76
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 72
         velocity: 96
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 72
       }
     }
     frames {
@@ -3227,6 +5139,13 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 76
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
@@ -3234,20 +5153,28 @@ tracks {
         velocity: 96
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 79
       }
     }
+  }
+  measures {
     frames {
       frame: 32
       note {
         kind: ON
         note: 73
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -3259,11 +5186,25 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
         note: 77
         velocity: 96
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 77
       }
     }
     frames {
@@ -3274,6 +5215,13 @@ tracks {
         velocity: 96
       }
     }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 80
+      }
+    }
   }
   measures {
     frames {
@@ -3283,20 +5231,28 @@ tracks {
         velocity: 96
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 79
       }
     }
+  }
+  measures {
     frames {
       frame: 32
       note {
         kind: ON
         note: 73
         velocity: 96
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 73
       }
     }
     frames {
@@ -3308,6 +5264,13 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 75
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
@@ -3316,63 +5279,36 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 77
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 80
         velocity: 96
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 80
       }
     }
     frames {
       frame: 112
       note {
-        kind: ON
-        note: 80
-        velocity: 96
-      }
-    }
-  }
-  measures {
-    frames {
-      note {
         kind: OFF
-        note: 79
-      }
-    }
-    frames {
-      frame: 32
-      note {
-        kind: ON
-        note: 73
-        velocity: 96
-      }
-    }
-    frames {
-      frame: 48
-      note {
-        kind: ON
-        note: 75
-        velocity: 96
-      }
-    }
-    frames {
-      frame: 64
-      note {
-        kind: ON
-        note: 77
-        velocity: 96
-      }
-    }
-    frames {
-      frame: 80
-      note {
-        kind: ON
         note: 80
-        velocity: 96
       }
     }
     frames {
-      frame: 112
+      frame: 115
       note {
         kind: OFF
         note: 80
@@ -3386,6 +5322,13 @@ tracks {
       }
     }
     frames {
+      frame: 119
+      note {
+        kind: OFF
+        note: 81
+      }
+    }
+    frames {
       frame: 120
       note {
         kind: OFF
@@ -3393,7 +5336,21 @@ tracks {
       }
     }
     frames {
+      frame: 123
+      note {
+        kind: OFF
+        note: 82
+      }
+    }
+    frames {
       frame: 124
+      note {
+        kind: OFF
+        note: 83
+      }
+    }
+    frames {
+      frame: 127
       note {
         kind: OFF
         note: 83
@@ -3424,10 +5381,11 @@ tracks {
   sequence: 1
   sequence: 1
   sequence: 2
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
   sequence: 3
-  sequence: 1
-  sequence: 1
-  sequence: 1
   sequence: 4
   sequence: 5
   sequence: 6
@@ -3435,20 +5393,47 @@ tracks {
   sequence: 8
   sequence: 9
   sequence: 10
-  sequence: 11
-  sequence: 12
+  sequence: 7
+  sequence: 8
   sequence: 9
   sequence: 10
   sequence: 11
+  sequence: 12
   sequence: 13
   sequence: 14
+  sequence: 11
+  sequence: 12
   sequence: 15
   sequence: 16
-  sequence: 17
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 2
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 1
+  sequence: 3
+  sequence: 4
+  sequence: 5
+  sequence: 6
+  sequence: 7
+  sequence: 8
+  sequence: 9
+  sequence: 10
+  sequence: 7
+  sequence: 8
+  sequence: 9
+  sequence: 10
+  sequence: 11
+  sequence: 12
+  sequence: 13
   sequence: 14
-  sequence: 18
-  sequence: 19
-  sequence: 0x84 # Loop back to sequence index 4
+  sequence: 11
+  sequence: 12
+  sequence: 15
+  sequence: 16
+  sequence: 132
 }
 tracks {
   name: "Electric Guitar"
@@ -3463,6 +5448,28 @@ tracks {
       other {
         program_change: 27
       }
+      other {
+        program_change: 27
+      }
+      other {
+        program_change: 27
+      }
+      other {
+        program_change: 27
+      }
+      other {
+        program_change: 27
+      }
+      other {
+        program_change: 27
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 70
+      }
     }
     frames {
       frame: 16
@@ -3470,6 +5477,13 @@ tracks {
         kind: ON
         note: 69
         velocity: 17
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3481,11 +5495,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 60
         velocity: 20
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -3497,11 +5525,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 69
         velocity: 23
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3513,11 +5555,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 60
         velocity: 26
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 60
       }
     }
   }
@@ -3530,11 +5586,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 69
         velocity: 29
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3546,11 +5616,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 60
         velocity: 32
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -3562,11 +5646,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 69
         velocity: 35
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3578,11 +5676,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 60
         velocity: 38
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 60
       }
     }
   }
@@ -3595,11 +5707,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 69
         velocity: 41
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3611,11 +5737,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 60
         velocity: 44
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -3627,11 +5767,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 69
         velocity: 47
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3643,11 +5797,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 60
         velocity: 50
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 60
       }
     }
   }
@@ -3660,11 +5828,25 @@ tracks {
       }
     }
     frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 16
       note {
         kind: ON
         note: 69
         velocity: 53
+      }
+    }
+    frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3676,11 +5858,25 @@ tracks {
       }
     }
     frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 48
       note {
         kind: ON
         note: 60
         velocity: 56
+      }
+    }
+    frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 60
       }
     }
     frames {
@@ -3692,11 +5888,25 @@ tracks {
       }
     }
     frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 70
+      }
+    }
+    frames {
       frame: 80
       note {
         kind: ON
         note: 69
         velocity: 59
+      }
+    }
+    frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 69
       }
     }
     frames {
@@ -3708,11 +5918,25 @@ tracks {
       }
     }
     frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 65
+      }
+    }
+    frames {
       frame: 112
       note {
         kind: ON
         note: 60
         velocity: 62
+      }
+    }
+    frames {
+      frame: 127
+      note {
+        kind: OFF
+        note: 60
       }
     }
   }
@@ -3722,6 +5946,13 @@ tracks {
         kind: ON
         note: 70
         velocity: 64
+      }
+    }
+    frames {
+      frame: 15
+      note {
+        kind: OFF
+        note: 70
       }
     }
     frames {
@@ -3733,11 +5964,25 @@ tracks {
       }
     }
     frames {
+      frame: 31
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
       frame: 32
       note {
         kind: ON
         note: 65
         velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -3749,11 +5994,25 @@ tracks {
       }
     }
     frames {
+      frame: 63
+      note {
+        kind: OFF
+        note: 60
+      }
+    }
+    frames {
       frame: 64
       note {
         kind: ON
         note: 70
         velocity: 64
+      }
+    }
+    frames {
+      frame: 79
+      note {
+        kind: OFF
+        note: 70
       }
     }
     frames {
@@ -3765,11 +6024,25 @@ tracks {
       }
     }
     frames {
+      frame: 95
+      note {
+        kind: OFF
+        note: 69
+      }
+    }
+    frames {
       frame: 96
       note {
         kind: ON
         note: 65
         velocity: 64
+      }
+    }
+    frames {
+      frame: 111
+      note {
+        kind: OFF
+        note: 65
       }
     }
     frames {
@@ -3780,9 +6053,8 @@ tracks {
         velocity: 64
       }
     }
-  }
-  measures {
     frames {
+      frame: 127
       note {
         kind: OFF
         note: 60
@@ -3804,25 +6076,33 @@ tracks {
   sequence: 4
   sequence: 4
   sequence: 5
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 0x84 # Loop back to sequence index 4
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 5
+  sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 132
 }
 

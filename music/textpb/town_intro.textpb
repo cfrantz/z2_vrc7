@@ -116,9 +116,9 @@ tracks {
       }
     }
     frames {
-      frame: 111 
+      frame: 111
       other {
-        next_song: 0x02
+        next_song: 2
       }
     }
   }
@@ -250,6 +250,12 @@ tracks {
         kind: ON
         note: 36
         velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+      other {
+        program_change: 34
       }
       other {
         program_change: 34

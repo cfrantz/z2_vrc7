@@ -1649,7 +1649,7 @@ tracks {
   sequence: 21
   sequence: 22
   sequence: 23
-  sequence: 0x80
+  sequence: 128
 }
 tracks {
   name: "Piano, Pulse1"
@@ -3070,7 +3070,7 @@ tracks {
   sequence: 22
   sequence: 23
   sequence: 24
-  sequence: 0x80
+  sequence: 128
 }
 tracks {
   name: "Bass Guitar, Triangle"
@@ -3081,6 +3081,12 @@ tracks {
         kind: ON
         note: 36
         velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+      other {
+        program_change: 34
       }
       other {
         program_change: 34
@@ -4844,7 +4850,7 @@ tracks {
   sequence: 19
   sequence: 20
   sequence: 21
-  sequence: 0x80
+  sequence: 128
 }
 tracks {
   name: "Drumset, Noise"
@@ -5065,6 +5071,8 @@ tracks {
         note: 38
       }
     }
+  }
+  measures {
   }
   measures {
     frames {
@@ -5308,10 +5316,6 @@ tracks {
       }
     }
   }
-  measures {
-    frames {
-    }
-  }
   sequence: 0
   sequence: 1
   sequence: 1
@@ -5341,45 +5345,11 @@ tracks {
   sequence: 3
   sequence: 3
   sequence: 4
+  sequence: 4
+  sequence: 4
+  sequence: 4
   sequence: 5
   sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 6
-  sequence: 0x80
+  sequence: 128
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

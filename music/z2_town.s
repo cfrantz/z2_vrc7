@@ -225,7 +225,7 @@ town_intro_bass_guitar__triangle_data:
 town_intro_bass_guitar__triangle_sequence:
     .BYT  $01,$02,$00
 town_intro_bass_guitar__triangle_measure1:
-    .BYT  $20,$08,$0d,$30,$f3,$11,$ff,$32,$f3,$11,$ff,$33,$f3,$11,$ff,$34,$f3,$11,$ff,$3e,$f3,$11,$ff,$3c,$d7,$11,$ff,$00
+    .BYT  $20,$08,$20,$08,$20,$08,$0d,$30,$f3,$11,$ff,$32,$f3,$11,$ff,$33,$f3,$11,$ff,$34,$f3,$11,$ff,$3e,$f3,$11,$ff,$3c,$d7,$11,$ff,$00
 town_intro_bass_guitar__triangle_measure2:
     .BYT  $32,$f3,$11,$ff,$35,$f3,$11,$ff,$39,$f3,$11,$ff,$37,$e5,$11,$ff,$3b,$f3,$11,$ff,$3e,$e5,$11,$ff,$00
 .export _town
@@ -249,7 +249,7 @@ town_drumset__noise_data:
     .WORD town_drumset__noise_measure6
     .WORD town_drumset__noise_measure7
 town_drumset__noise_sequence:
-    .BYT  $01,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$03,$03,$03,$03,$03,$03,$03,$03,$04,$04,$04,$04,$05,$06,$07,$07,$07,$07,$80,$00
+    .BYT  $01,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$03,$03,$03,$03,$03,$03,$03,$03,$04,$04,$04,$04,$05,$05,$05,$05,$06,$07,$80,$00
 town_drumset__noise_measure1:
     .BYT  $20,$10,$0d,$21,$e5,$11,$f1,$21,$f3,$11,$e3,$21,$e5,$11,$ff,$00
 town_drumset__noise_measure2:
@@ -259,11 +259,11 @@ town_drumset__noise_measure3:
 town_drumset__noise_measure4:
     .BYT  $21,$e5,$11,$f1,$21,$f3,$11,$d5,$21,$f3,$11,$ff,$00
 town_drumset__noise_measure5:
-    .BYT  $21,$e5,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$f1,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$00
-town_drumset__noise_measure6:
-    .BYT  $21,$fa,$11,$ff,$21,$f3,$11,$ff,$21,$fa,$11,$ff,$21,$f3,$11,$ff,$21,$fa,$11,$ff,$21,$fa,$11,$f8,$21,$fa,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$00
-town_drumset__noise_measure7:
     .BYT  $90,$00
+town_drumset__noise_measure6:
+    .BYT  $21,$e5,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$f1,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$00
+town_drumset__noise_measure7:
+    .BYT  $21,$fa,$11,$ff,$21,$f3,$11,$ff,$21,$fa,$11,$ff,$21,$f3,$11,$ff,$21,$fa,$11,$ff,$21,$fa,$11,$f8,$21,$fa,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$21,$f3,$11,$ff,$00
 town_piano__pulse2_data:
     .WORD town_piano__pulse2_sequence
     .WORD town_piano__pulse2_measure1
@@ -446,7 +446,7 @@ town_bass_guitar__triangle_data:
 town_bass_guitar__triangle_sequence:
     .BYT  $01,$02,$03,$03,$04,$05,$06,$07,$02,$02,$03,$03,$08,$09,$0a,$0b,$0c,$0d,$0e,$0f,$0c,$0d,$0e,$0f,$10,$11,$10,$12,$13,$14,$13,$14,$15,$16,$80,$00
 town_bass_guitar__triangle_measure1:
-    .BYT  $20,$08,$0d,$30,$e5,$11,$ff,$37,$f3,$11,$ff,$34,$e5,$11,$ff,$3c,$f3,$11,$ff,$37,$f3,$11,$ff,$34,$f3,$11,$ff,$00
+    .BYT  $20,$08,$20,$08,$20,$08,$0d,$30,$e5,$11,$ff,$37,$f3,$11,$ff,$34,$e5,$11,$ff,$3c,$f3,$11,$ff,$37,$f3,$11,$ff,$34,$f3,$11,$ff,$00
 town_bass_guitar__triangle_measure2:
     .BYT  $30,$e5,$11,$ff,$37,$f3,$11,$ff,$34,$e5,$11,$ff,$3c,$f3,$11,$ff,$37,$f3,$11,$ff,$34,$f3,$11,$ff,$00
 town_bass_guitar__triangle_measure3:
@@ -537,7 +537,7 @@ house_bass_guitar__triangle_data:
 house_bass_guitar__triangle_sequence:
     .BYT  $01,$02,$03,$02,$80,$00
 house_bass_guitar__triangle_measure1:
-    .BYT  $20,$08,$0d,$37,$d7,$11,$ff,$32,$d7,$11,$ff,$37,$e5,$11,$ff,$00
+    .BYT  $20,$08,$20,$08,$20,$08,$0d,$37,$d7,$11,$ff,$32,$d7,$11,$ff,$37,$e5,$11,$ff,$00
 house_bass_guitar__triangle_measure2:
     .BYT  $35,$d7,$11,$ff,$30,$d7,$11,$ff,$35,$e5,$11,$ff,$00
 house_bass_guitar__triangle_measure3:
@@ -559,7 +559,7 @@ town_item_fanfare_piano__pulse2_data:
 town_item_fanfare_piano__pulse2_sequence:
     .BYT  $01,$00
 town_item_fanfare_piano__pulse2_measure1:
-    .BYT  $20,$28,$0d,$3c,$f5,$11,$ff,$3d,$f5,$11,$ff,$3e,$f5,$11,$ff,$3f,$de,$11,$e7,$12,$14,$ff,$00
+    .BYT  $20,$28,$0d,$3c,$f5,$11,$ff,$3d,$f5,$11,$ff,$3e,$f5,$11,$ff,$3f,$de,$11,$e7,$14,$12,$ff,$00
 town_item_fanfare_piano__pulse1_data:
     .WORD town_item_fanfare_piano__pulse1_sequence
     .WORD town_item_fanfare_piano__pulse1_measure1
@@ -573,5 +573,5 @@ town_item_fanfare_bass_guitar__triangle_data:
 town_item_fanfare_bass_guitar__triangle_sequence:
     .BYT  $01,$00
 town_item_fanfare_bass_guitar__triangle_measure1:
-    .BYT  $20,$08,$0d,$35,$f4,$36,$f4,$37,$f4,$38,$dc,$11,$e8,$00
+    .BYT  $20,$08,$20,$08,$20,$08,$0d,$35,$f5,$11,$ff,$36,$f5,$11,$ff,$37,$f5,$11,$ff,$38,$dd,$11,$e7,$00
 

@@ -376,7 +376,7 @@ tracks {
   sequence: 1
   sequence: 2
   sequence: 1
-  sequence: 0x80
+  sequence: 128
 }
 tracks {
   name: "Piano, Pulse1"
@@ -632,7 +632,7 @@ tracks {
   sequence: 1
   sequence: 2
   sequence: 3
-  sequence: 0x80
+  sequence: 128
 }
 tracks {
   name: "Bass Guitar, Triangle"
@@ -643,6 +643,12 @@ tracks {
         kind: ON
         note: 43
         velocity: 64
+      }
+      other {
+        program_change: 34
+      }
+      other {
+        program_change: 34
       }
       other {
         program_change: 34
@@ -782,6 +788,6 @@ tracks {
   sequence: 1
   sequence: 2
   sequence: 1
-  sequence: 0x80
+  sequence: 128
 }
 

@@ -119,10 +119,10 @@ tracks {
     frames {
       frame: 95
       other {
-        song_end: true
+        restart_last_song: true
       }
       other {
-        restart_last_song: true
+        song_end: true
       }
     }
   }
@@ -259,6 +259,19 @@ tracks {
       other {
         program_change: 34
       }
+      other {
+        program_change: 34
+      }
+      other {
+        program_change: 34
+      }
+    }
+    frames {
+      frame: 11
+      note {
+        kind: OFF
+        note: 53
+      }
     }
     frames {
       frame: 12
@@ -266,6 +279,13 @@ tracks {
         kind: ON
         note: 50
         velocity: 64
+      }
+    }
+    frames {
+      frame: 23
+      note {
+        kind: OFF
+        note: 50
       }
     }
     frames {
@@ -277,11 +297,25 @@ tracks {
       }
     }
     frames {
+      frame: 35
+      note {
+        kind: OFF
+        note: 46
+      }
+    }
+    frames {
       frame: 36
       note {
         kind: ON
         note: 55
         velocity: 64
+      }
+    }
+    frames {
+      frame: 47
+      note {
+        kind: OFF
+        note: 55
       }
     }
     frames {
@@ -293,11 +327,25 @@ tracks {
       }
     }
     frames {
+      frame: 59
+      note {
+        kind: OFF
+        note: 51
+      }
+    }
+    frames {
       frame: 60
       note {
         kind: ON
         note: 46
         velocity: 64
+      }
+    }
+    frames {
+      frame: 71
+      note {
+        kind: OFF
+        note: 46
       }
     }
     frames {
@@ -311,7 +359,7 @@ tracks {
   }
   measures {
     frames {
-      frame: 12
+      frame: 11
       note {
         kind: OFF
         note: 58
