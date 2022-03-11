@@ -10,10 +10,8 @@ hardware.
 Currently, CFplayer is _pretty well_ integrated into Zelda 2, but there
 are still some miscellaneous bugs.
 
-- Music doesn't always stop on screen transitions when it should.
-- Music doesn't always restart when it should (e.g. after picking up a
-  boss key).
 - The Zelda 2 sound effects aren't all reproduced with perfect fidelity.
+- There is an occasional screen glitch when Link dies.
 
 ## Music
 

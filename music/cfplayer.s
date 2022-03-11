@@ -316,6 +316,8 @@ loop:
     sta     channel_meas_pos,x
     sta     channel_instrument,x
     sta     channel_env_state,x
+    sta     channel_note,x
+    sta     channel_volume,x
     bne     loop
     rts
 .endproc
