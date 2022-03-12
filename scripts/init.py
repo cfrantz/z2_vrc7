@@ -24,13 +24,16 @@ try:
 
     import bank7_code_move
     import famicom_controller
+    import softlock_fix
     import music
 
     symtab = {}
     # Affects bank 0 and -1 (last bank).
     bank7_code_move.hack(edit, asm, config, symtab)
-    # Enhancement to allow use of controllers on the Famicom expansion port
+    # Enhancement to allow use of controllers on the Famicom expansion port.
     famicom_controller.hack(edit, asm, config, symtab)
+    # Fix the screen-transition softlock bug.
+    softlock_fix.hack(edit, asm, config, symtab)
     # Replaces bank 6, adds several 8KiB banks (28/29=bank 14, 26/27=bank13).
     music.hack(edit, asm, symtab,
                # The IRQ routines need 100 free bytes in bank -1, however
