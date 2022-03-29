@@ -121,7 +121,7 @@ check_sfx_loop:
     beq save_sfx            ; none
     cmp $07fc,y
     beq save_sfx            ; if request == current, allowed to restart it
-    bcc check_sfx_loop      ; if request < current, play it
+    bcc save_sfx            ; if request < current, play it
     lda #0                  ; zero out the sound effect register
     sta $ec,y
     beq check_sfx_loop

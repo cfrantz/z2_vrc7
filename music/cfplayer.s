@@ -880,14 +880,13 @@ loop:
     sta     reg_index
     lsr
     lsr
-    tax                             ; apu channel in X
-    lda     #5                      ; SFX priority
-    sec
-    sbc     sfx_chan
-    cmp     channel_owner,x
+    tay                             ; apu channel in Y
+    lda     sfx_priority,x          ; priority in A
+    cmp     channel_owner,y
     bcc     regs_done               ; if cur_sfx_chan < owner, done
 
     sta     channel_owner,x         ; take ownership of the channel
+    ldy     #0
     lda     (ptr1),y                ; register value to write
     ldy     reg_index               ; apu register to write
     sta     $4000,y                 ; write to APU regs
@@ -917,9 +916,7 @@ terminate:
     sta     ptr1+1                  ; null out the pointer
     ldy     #NUM_CHANNELS-1
 termloop:
-    lda     #5
-    sec
-    sbc     sfx_chan
+    lda     sfx_priority,x
     cmp     channel_owner,y
     bne     termnext
     lda     #0
@@ -941,6 +938,11 @@ stop_current_song:
     ldx     sfx_chan                ; get SFX channel back into X
     jmp     loop
 .endproc
+
+sfx_priority:
+    ; Zelda 2 sound effects channel priorities.
+    ;     XX, EC, ED, EE, EF
+    .byte  0,  4,  1,  2,  3
 
 ; Note tables
 note_table_lsb = _note_table_lsb - $21
